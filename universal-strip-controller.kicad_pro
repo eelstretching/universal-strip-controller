@@ -416,13 +416,25 @@
         "uuid": "b1a25501-925f-4082-acf3-9513bc59c329"
       }
     ],
-    "used_designators": "#FLG5,#FLG13,L1,USB1,X1,J1-2,J4,C2-4,C6-21,C118,U1-4,U9,SW1-2,BT1,R1-4,R6-12,R14-15,R94-98,D1-2,#PWR4-10,#PWR12-47",
+    "used_designators": "JP1,#FLG2,#FLG5,#FLG7,#FLG13,F1-39,PWR_LED1-3,TP2-3,L1-2,USB1,X1,J1-39,U1-11,SW1-2,C2-4,C6-41,C118,D1-24,#PWR4-10,#PWR12-151,R1-21,R24-54,R94-99,BT1",
     "variants": []
   },
   "sheets": [
     [
       "b1a25501-925f-4082-acf3-9513bc59c329",
       "universal-strip-controller"
+    ],
+    [
+      "b2bef3cb-9181-478c-9c64-5764e6fff4f7",
+      "Power"
+    ],
+    [
+      "c3168bf7-e4ad-4c9e-aeb5-4def2314521a",
+      "Status LEDs"
+    ],
+    [
+      "d8f0d195-c5df-462a-a3f2-ec02d0941269",
+      "Output"
     ]
   ],
   "text_variables": {},

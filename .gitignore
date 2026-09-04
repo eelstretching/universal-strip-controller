@@ -1,0 +1,6 @@
+# Editor/tooling artifacts, not part of the project
+.history/
+~*.lck
+
+# Ad-hoc backup copies (git history is the real safety net now)
+*.bak-*
