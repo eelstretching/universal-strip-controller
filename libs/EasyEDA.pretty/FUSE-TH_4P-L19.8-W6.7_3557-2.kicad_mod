@@ -1,0 +1,186 @@
+(footprint "FUSE-TH_4P-L19.8-W6.7_3557-2"
+	(version 20240101)
+	(generator "pcbnew")
+		(layer "F.Cu")
+		(property "Reference" "F2"
+			(at 0 -5.7 90)
+			(layer "F.SilkS")
+			(uuid "4efd2965-59a1-46e1-a4b1-2b4b8404a6d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "3557-2"
+			(at 0 5.7 90)
+			(layer "F.Fab")
+			(uuid "8145bcda-0f62-4048-bee7-7f6b29b119ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22ab413e-4f64-4f47-a288-cc2932a042d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1771f350-1261-44a9-bb27-c751347c8cc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C352820"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd5b3e79-3021-4335-99de-0785b8b79fae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 9.91 -3.37)
+			(end -9.86 -3.37)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fda5ef2b-7aac-46f4-904f-f8d92b67519e")
+		)
+		(fp_line
+			(start -9.9 -3.37)
+			(end -9.9 3.36)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "39f61b9d-e51b-4aad-8f66-8e2a14c67853")
+		)
+		(fp_line
+			(start 9.91 3.36)
+			(end 9.91 -3.37)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f4c3856f-0b94-40db-8d58-6e35330ac49e")
+		)
+		(fp_line
+			(start -9.9 3.36)
+			(end 9.91 3.36)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4389bac7-c0bf-48ab-b551-0822c10ef8ad")
+		)
+		(fp_circle
+			(center -9.9 -3.36)
+			(end -9.87 -3.36)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "0dc4078a-9cf4-416a-a5a0-d53362c36aff")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "3aaa402d-499e-4d96-b12a-b85606ec0fce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -6.74 -1.7 90)
+			(size 2.5 2.5)
+			(drill 1.799996)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(pinfunction "1_1")
+			(pintype "unspecified")
+			(uuid "a04fba29-c0b5-4150-8335-dabd92d396bb")
+		)
+		(pad "2" thru_hole circle
+			(at -6.74 1.7 90)
+			(size 2.5 2.5)
+			(drill 1.799996)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(pinfunction "2_2")
+			(pintype "unspecified")
+			(uuid "262127be-6bd7-4694-a5dc-ece8a0d68a7c")
+		)
+		(pad "3" thru_hole circle
+			(at 6.74 -1.7 90)
+			(size 2.5 2.5)
+			(drill 1.799996)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(pinfunction "3_3")
+			(pintype "unspecified")
+			(uuid "707cf31c-3aba-4168-ae34-af517bec2fcd")
+		)
+		(pad "4" thru_hole circle
+			(at 6.74 1.7 90)
+			(size 2.5 2.5)
+			(drill 1.799996)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(pinfunction "4_4")
+			(pintype "unspecified")
+			(uuid "7c028fa8-f3d1-440b-bbf1-c8f0b71ac320")
+		)
+		(embedded_fonts no)
+		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/FUSE-TH_4P-L19.8-W6.7_3557-2.wrl"
+			(offset
+				(xyz -0.5 -0 4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)

@@ -277,6 +277,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PixelBlit:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PixelBlit:+3V3"
 			(power global)
 			(pin_numbers
@@ -7005,7 +7120,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z2"
+		(property "Value" "+VIN_Z2"
 			(at 116.586 72.136 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7707,7 +7822,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z3"
+		(property "Value" "+VIN_Z3"
 			(at 178.816 82.296 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8288,7 +8403,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z4"
+		(property "Value" "+VIN_Z4"
 			(at 178.816 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11384,7 +11499,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z3"
+		(property "Value" "+VIN_Z3"
 			(at 237.236 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11789,7 +11904,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z2"
+		(property "Value" "+VIN_Z2"
 			(at 53.086 94.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11866,7 +11981,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z4"
+		(property "Value" "+VIN_Z4"
 			(at 178.816 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12476,7 +12591,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z1"
+		(property "Value" "+VIN_Z1"
 			(at 116.586 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14974,7 +15089,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z2"
+		(property "Value" "+VIN_Z2"
 			(at 116.586 94.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15051,7 +15166,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z1"
+		(property "Value" "+VIN_Z1"
 			(at 53.086 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15107,6 +15222,95 @@
 		)
 	)
 	(symbol
+		(lib_id "PixelBlit:PWR_FLAG")
+		(at 60.96 87.63 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20f916e5-f9f7-451e-bcd0-eeffacedcc03")
+		(property "Reference" "#FLG21"
+			(at 59.055 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 57.15 87.62989999999999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 60.96 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5313dbe7-bfc0-4355-a6a7-5ca6e0718fe5")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/d8f0d195-c5df-462a-a3f2-ec02d0941269"
+					(reference "#FLG21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 53.34 87.63) (xy 60.96 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f0fa4c-ae9b-4725-ad23-2c7ed27787f7")
+	)
+	(symbol
 		(lib_id "PixelBlit:+12V")
 		(at 237.49 133.35 0)
 		(unit 1)
@@ -15128,7 +15332,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z3"
+		(property "Value" "+VIN_Z3"
 			(at 237.236 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15824,7 +16028,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z4"
+		(property "Value" "+VIN_Z4"
 			(at 237.236 94.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16174,7 +16378,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z1"
+		(property "Value" "+VIN_Z1"
 			(at 53.086 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16251,7 +16455,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z3"
+		(property "Value" "+VIN_Z3"
 			(at 237.236 152.146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17201,7 +17405,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z1"
+		(property "Value" "+VIN_Z1"
 			(at 116.586 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17812,7 +18016,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z4"
+		(property "Value" "+VIN_Z4"
 			(at 237.236 117.856 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17986,7 +18190,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z2"
+		(property "Value" "+VIN_Z2"
 			(at 53.086 140.716 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19541,7 +19745,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z3"
+		(property "Value" "+VIN_Z3"
 			(at 178.816 150.876 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20049,7 +20253,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z1"
+		(property "Value" "+VIN_Z1"
 			(at 53.086 152.146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20205,7 +20409,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z4"
+		(property "Value" "+VIN_Z4"
 			(at 178.816 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20259,6 +20463,95 @@
 				)
 			)
 		)
+	)
+	(symbol
+		(lib_id "PixelBlit:PWR_FLAG")
+		(at 186.69 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69d040b7-c3a0-40be-a3af-15a0f45cd081")
+		(property "Reference" "#FLG22"
+			(at 184.785 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 182.88 74.9299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 186.69 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52e6b01d-df2c-46c0-9764-bef1c3e1e756")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/d8f0d195-c5df-462a-a3f2-ec02d0941269"
+					(reference "#FLG22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 179.07 74.93) (xy 186.69 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8172cf47-2593-40d9-a5a0-48cb64403779")
 	)
 	(symbol
 		(lib_id "PixelBlit:DB301V-3.5-3P-GN")
@@ -20475,7 +20768,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z3"
+		(property "Value" "+VIN_Z3"
 			(at 178.816 128.016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20649,7 +20942,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z2"
+		(property "Value" "+VIN_Z2"
 			(at 116.586 140.716 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21671,7 +21964,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z3"
+		(property "Value" "+VIN_Z3"
 			(at 237.236 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25330,7 +25623,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z2"
+		(property "Value" "+VIN_Z2"
 			(at 53.086 117.856 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25940,7 +26233,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z1"
+		(property "Value" "+VIN_Z1"
 			(at 116.586 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26332,7 +26625,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z4"
+		(property "Value" "+VIN_Z4"
 			(at 237.236 140.716 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26409,7 +26702,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z4"
+		(property "Value" "+VIN_Z4"
 			(at 237.236 72.136 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26927,7 +27220,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z4"
+		(property "Value" "+VIN_Z4"
 			(at 178.816 116.586 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27265,7 +27558,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z1"
+		(property "Value" "+VIN_Z1"
 			(at 53.086 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28252,7 +28545,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z1"
+		(property "Value" "+VIN_Z1"
 			(at 116.586 152.146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28329,7 +28622,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z3"
+		(property "Value" "+VIN_Z3"
 			(at 178.816 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28835,7 +29128,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z2"
+		(property "Value" "+VIN_Z2"
 			(at 116.586 117.856 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28913,7 +29206,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z2"
+		(property "Value" "+VIN_Z2"
 			(at 53.34 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28967,6 +29260,95 @@
 				)
 			)
 		)
+	)
+	(symbol
+		(lib_id "PixelBlit:PWR_FLAG")
+		(at 60.96 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de45b990-254e-4792-b063-6a0ba65a5ddc")
+		(property "Reference" "#FLG20"
+			(at 59.055 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 57.15 76.1999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 60.96 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "040c8758-5341-4c7f-abd4-1d17052b1670")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/d8f0d195-c5df-462a-a3f2-ec02d0941269"
+					(reference "#FLG20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 53.34 76.2) (xy 60.96 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ff237c3-d6bf-4f0a-b661-c39b5fbc9ea8")
 	)
 	(symbol
 		(lib_id "PixelBlit:0402,47Ω")

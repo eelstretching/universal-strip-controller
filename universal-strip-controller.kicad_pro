@@ -598,12 +598,348 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "capacitance",
+          "name": "capacitance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "capacity",
+          "name": "capacity",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Category",
+          "name": "Category",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Class",
+          "name": "Class",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "current",
+          "name": "current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "dcr",
+          "name": "dcr",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "dielectric",
+          "name": "dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Diode Configuration",
+          "name": "Diode Configuration",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "esr",
+          "name": "esr",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Forward Voltage (Vf@If)",
+          "name": "Forward Voltage (Vf@If)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "freq_stability",
+          "name": "freq_stability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "frequency",
+          "name": "frequency",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "inductance",
+          "name": "inductance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part Name",
+          "name": "LCSC Part Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "load_capacitance",
+          "name": "load_capacitance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part",
+          "name": "Manufacturer Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "manufacturer_pn",
+          "name": "manufacturer_pn",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "material",
+          "name": "material",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Minimum Qty",
+          "name": "Minimum Qty",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating Temperature Range",
+          "name": "Operating Temperature Range",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "operating_temp_max",
+          "name": "operating_temp_max",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "operating_temp_min",
+          "name": "operating_temp_min",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Overload Voltage (Max)",
+          "name": "Overload Voltage (Max)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "package",
+          "name": "package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "packaging",
+          "name": "packaging",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "packaging_qty",
+          "name": "packaging_qty",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part",
+          "name": "Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "part_uid",
+          "name": "part_uid",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "power",
+          "name": "power",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power(Watts)",
+          "name": "Power(Watts)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Process",
+          "name": "Process",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rectified Current",
+          "name": "Rectified Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Resistance",
+          "name": "Resistance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Reverse Leakage Current (Ir)",
+          "name": "Reverse Leakage Current (Ir)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Reverse Voltage (Vr)",
+          "name": "Reverse Voltage (Vr)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "rms_current",
+          "name": "rms_current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "saturation_current",
+          "name": "saturation_current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "size",
+          "name": "size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Stock",
+          "name": "Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier",
+          "name": "Supplier",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Part",
+          "name": "Supplier Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "temp_coefficient",
+          "name": "temp_coefficient",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Temperature Coefficient",
+          "name": "Temperature Coefficient",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Type",
+          "name": "Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "voltage",
+          "name": "voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage Rated",
+          "name": "Voltage Rated",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "z_height_max",
+          "name": "z_height_max",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "z_height_nom",
+          "name": "z_height_nom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Attrition Qty",
+          "name": "Attrition Qty",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -648,7 +984,7 @@
         "uuid": "b1a25501-925f-4082-acf3-9513bc59c329"
       }
     ],
-    "used_designators": "JP1,#FLG2,#FLG5,#FLG7,#FLG13,F1-39,PWR_LED1-3,TP2-3,L1-2,USB1,X1,J1-39,C2-4,C6-41,C118,C120-132,SW1-2,U1-11,D1-24,#PWR4-10,#PWR12-152,R1-21,R24-54,R94-99,BT1",
+    "used_designators": "JP1,#FLG2,#FLG5,#FLG7,#FLG13,F1-39,PWR_LED1-3,TP2-3,L1-2,USB1,X1,J1-39,SW1-2,U1-11,C2-4,C6-41,C118,C120-132,D1-24,#PWR4-10,#PWR12-152,R1-21,R24-54,R94-99,BT1",
     "variants": []
   },
   "sheets": [

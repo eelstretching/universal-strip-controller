@@ -1,0 +1,372 @@
+(footprint "generic_capc1005x50_wide"
+	(version 20240101)
+	(generator "pcbnew")
+		(layer "F.Cu")
+		(property "Reference" "C7"
+			(at -1.8 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "3452df7a-22b2-4383-8f7a-fc23626516ec")
+			(effects
+				(font
+					(size 0.8 0.5)
+					(thickness 0.125)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53751dc4-2769-45ec-9657-0581bf867f54")
+			(effects
+				(font
+					(size 0.8 0.5)
+					(thickness 0.01)
+					(bold yes)
+				)
+			)
+		)
+		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R60J475ME47D\\datasheets"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7bd6b306-97c1-4111-8901-5581480af7cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Capacitor, MLCC, 4.7uF, 20%, M1005, 6.3V, X5R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52a2783a-55d1-44f7-9af2-35ddeed28dc4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "package" "M1005"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d257e13e-d3df-4114-897a-699405692613")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "voltage" "6.3V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5fda7e36-352b-4e04-9d00-1e46b043aa47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "dielectric" "X5R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e731fb7c-3b73-4658-b587-44e30f2d8199")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "tolerance" "20%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf62c3ed-ab8a-47e8-8438-2de038de0b15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "part_uid" "RP-019A1P-0C2GHY"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e92662f7-c453-4807-ba07-6eae7ea3b3db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "status" "OK"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cafb44fd-89ec-4934-9439-dc3fa5e6efe9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manufacturer" "Murata"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d2bb9e7-ce99-40b1-afed-2d500b4e10f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manufacturer_pn" "GRM155R60J475ME47D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7283ef2-cd71-438e-a5a7-34bc7eedac14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "packaging" "180mm paper taping"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f819dadf-f72e-4fad-8ad0-c1bdd0fbd027")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "packaging_qty" "10000"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "363ca962-b102-444a-8f8d-3e41acc17621")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc_pn" "C82453"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea8742b3-a182-475e-96ef-66ff6f817445")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "temp_coefficient" "X5R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c4c51e2-89d9-4271-b9e2-ceb7ac6ffefb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "operating_temp_max" "+85C"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "358bd3c5-6f89-4db5-bdc9-d9baf23c15d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "operating_temp_min" "-55C"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a43b35e-9fb7-48b9-87f3-313a9cfe9a61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "material" "Ceramic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be257a4b-7561-4db6-b8d0-fefcd9292cd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "size" "1.0x0.5x0.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "782bf3ce-2155-4066-aab2-1317bc003404")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "capacitance" "4.7u"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0058ca98-e8b4-44c5-a5d8-cfddc0a8b4c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "z_height_nom" "0.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cea6579f-a3be-450b-a745-7ba2b2417656")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "RPI_COMPILED:generic_capc1005x50 RPI_COMPILED:generic_capc1005x50_wide")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "564adf28-082a-424b-8389-e6342d444764")
+		)
+		(fp_rect
+			(start -0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "4a269bd9-5f8f-451f-b3c5-09fafc1cd19c")
+		)
+		(fp_rect
+			(start -0.25 -0.25)
+			(end 0.25 0.25)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "99532793-3c43-4f8b-9ebf-bec42bd3db31")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6cf81719-325f-4e1e-83e7-6c920642f28b")
+			(effects
+				(font
+					(size 0.8 0.5)
+					(thickness 0.01)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.515 0)
+			(size 0.47 0.55)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pintype "passive")
+			(uuid "e2a77500-346c-4632-a615-1165e9e3faab")
+		)
+		(pad "2" smd rect
+			(at 0.515 0)
+			(size 0.47 0.55)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pintype "passive")
+			(uuid "8d3b75ae-9e68-49ee-93d9-b19001638ac6")
+		)
+		(embedded_fonts no)
+		(model "kicad-embed://generic_capc1005x50.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)

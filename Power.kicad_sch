@@ -271,7 +271,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:SOD-123_L2.7-W1.6-LS3.7-RD-1"
+			(property "Footprint" "Diode_SMD:D_SOD-123"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1035,7 +1035,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_JLCPCB:R_0603"
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 				(at -1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1352,7 +1352,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_JLCPCB:R_0603"
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 				(at -1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10084,7 +10084,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z4"
+		(property "Value" "+VIN_Z4"
 			(at 265.684 143.002 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10526,7 +10526,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z2"
+		(property "Value" "+VIN_Z2"
 			(at 247.396 143.256 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11174,7 +11174,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z2"
+		(property "Value" "+VIN_Z2"
 			(at 180.34 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12175,7 +12175,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z3"
+		(property "Value" "+VIN_Z3"
 			(at 256.54 143.256 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12555,7 +12555,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z1"
+		(property "Value" "+VIN_Z1"
 			(at 236.982 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12790,7 +12790,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z2"
+		(property "Value" "+VIN_Z2"
 			(at 267.97 88.392 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12947,7 +12947,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z1"
+		(property "Value" "+VIN_Z1"
 			(at 242.57 88.392 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13443,7 +13443,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z3"
+		(property "Value" "+VIN_Z3"
 			(at 267.97 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13521,7 +13521,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z3"
+		(property "Value" "+VIN_Z3"
 			(at 242.57 116.332 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14143,7 +14143,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:SOD-123_L2.7-W1.6-LS3.7-RD-1"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 25.4 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -14540,7 +14540,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z4"
+		(property "Value" "+VIN_Z4"
 			(at 180.34 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15844,7 +15844,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z4"
+		(property "Value" "+VIN_Z4"
 			(at 267.97 116.332 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15922,7 +15922,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z1"
+		(property "Value" "+VIN_Z1"
 			(at 177.8 87.122 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16582,7 +16582,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 168.91 52.578 90)
 			(hide yes)
 			(show_name no)
@@ -16839,7 +16839,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z2"
+		(property "Value" "+VIN_Z2"
 			(at 242.57 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18828,6 +18828,95 @@
 		)
 	)
 	(symbol
+		(lib_id "PixelBlit:PWR_FLAG")
+		(at 38.1 48.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b115788a-9cd3-4f4a-afc0-d55f65515a61")
+		(property "Reference" "#FLG23"
+			(at 36.195 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 34.29 48.259899999999995 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 38.1 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac79fe77-d467-4b9d-8175-c5ebd7f2b747")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/b2bef3cb-9181-478c-9c64-5764e6fff4f7"
+					(reference "#FLG23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 30.48 48.26) (xy 38.1 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a42cfa8-e87d-4454-b5f8-872eba0b2af4")
+	)
+	(symbol
 		(lib_id "PixelBlit:GND")
 		(at 181.61 50.8 0)
 		(unit 1)
@@ -18937,7 +19026,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 215.9 156.718 90)
 			(hide yes)
 			(show_name no)
@@ -20221,7 +20310,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V_Z3"
+		(property "Value" "+VIN_Z3"
 			(at 180.34 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20275,5 +20364,94 @@
 				)
 			)
 		)
+	)
+	(symbol
+		(lib_id "PixelBlit:PWR_FLAG")
+		(at 187.96 116.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d81807ad-5379-41e6-8026-975419dc9cea")
+		(property "Reference" "#FLG24"
+			(at 186.055 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 184.15 116.8399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 187.96 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9fd7777f-0a18-4473-9aeb-5225c1cfe0a7")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/b2bef3cb-9181-478c-9c64-5764e6fff4f7"
+					(reference "#FLG24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 180.34 116.84) (xy 187.96 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b2174b4-f5b7-4d77-8f7d-39423e56cade")
 	)
 )

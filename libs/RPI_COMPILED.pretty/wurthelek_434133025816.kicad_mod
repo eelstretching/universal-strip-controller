@@ -1,0 +1,378 @@
+(footprint "wurthelek_434133025816"
+	(version 20240101)
+	(generator "pcbnew")
+		(layer "F.Cu")
+		(property "Reference" "SW1"
+			(at -0.9 -2.3 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "3873c7b0-d374-47d3-bd33-df7842f2d331")
+			(effects
+				(font
+					(size 0.8 0.5)
+					(thickness 0.125)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "434133025816"
+			(at 0 1 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "238e8ba7-c99f-44b7-9686-484387de1082")
+			(effects
+				(font
+					(size 0.8 0.5)
+					(thickness 0.01)
+					(bold yes)
+				)
+			)
+		)
+		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Electromechanical\\Switches\\Tactile\\WURTHELEK_434133025816\\datasheets"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd94a9fc-411a-480a-9b43-044d4622497d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Tactile Pushbutton, SPST, N.O., 4.2x3.2x2.5mm"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6706377-bb8d-47d6-a351-59908fb467e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "part_uid" "RP-01H0MT-6E9H8F"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1677f5d2-285d-4686-a9f3-05b7c1c0ab8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "status" "DNU"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4edec7e7-b94d-4143-b077-106c88440531")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manufacturer" "Wurth Elektronik"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e8839bd-c5f8-4896-973b-68deb35d9656")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manufacturer_pn" "434133025816"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "740fa15e-a095-439e-8512-6f1df437e1ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "packaging" "330mm dia. tape & reel"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f381dda0-e684-4470-a220-09e4bf41a5a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "packaging_qty" "2900"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d97f8c06-5cbf-44af-97bc-9804a6da2e84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc_pn" "C5504987"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92bbb901-1355-46bc-98be-a75cce34c10c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "size" "4.2x3.2x2.5mm"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6358b0e8-7afa-454b-a2d8-f55d1ac34e18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "z_height_max" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fe8586b-f4ff-468e-b2d3-83542f2f06b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "z_height_nom" "2.5mm"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d31055c6-1adb-4ae0-8492-0a5869271f9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "package" "4.2x3.2x2.5mm"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4751e14-4fbd-4c2b-8149-62d69d6cc4bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "RPI_COMPILED:wurthelek_434133025816")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
+		(solder_paste_margin 0)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -2.3 1.35) (xy -2.3 0.8) (xy -2.1 0.8) (xy -2.1 -0.8) (xy -2.3 -0.8) (xy -2.3 -1.35) (xy -2.1 -1.35)
+				(xy -2.1 -1.6) (xy 2.1 -1.6) (xy 2.1 -1.35) (xy 2.3 -1.35) (xy 2.3 -0.8) (xy 2.1 -0.8) (xy 2.1 0.8)
+				(xy 2.3 0.8) (xy 2.3 1.35) (xy 2.1 1.35) (xy 2.1 1.6) (xy -2.1 1.6) (xy -2.1 1.35)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "026b1277-589e-4670-b019-3ed036bd7764")
+		)
+		(fp_line
+			(start -0.4 1.1)
+			(end 0.4 1.1)
+			(stroke
+				(width 0.01)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "666e2cba-ccc6-490d-b710-fa654f98d2b4")
+		)
+		(fp_line
+			(start -0.4 -1.1)
+			(end 0.4 -1.1)
+			(stroke
+				(width 0.01)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "c92905f3-c24c-47be-ae4b-c881b336f540")
+		)
+		(fp_rect
+			(start -2.1 1.6)
+			(end 2.1 -1.6)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "9a1da8a1-c711-47d1-9f76-701cdc903a99")
+		)
+		(fp_rect
+			(start -2.3 1.35)
+			(end -2.1 0.8)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "036d74cb-f51a-483a-9da8-86777ea109d4")
+		)
+		(fp_rect
+			(start 2.1 1.35)
+			(end 2.3 0.8)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "fff7c1f6-e537-4708-9ca6-f51ce4d01945")
+		)
+		(fp_rect
+			(start -2.3 -1.35)
+			(end -2.1 -0.8)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "e868f5a0-52d9-4b48-b589-4ecce7ea3da5")
+		)
+		(fp_rect
+			(start 2.1 -1.35)
+			(end 2.3 -0.8)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "72f348da-60ca-4df5-be13-895b289066f2")
+		)
+		(fp_arc
+			(start -0.4 1.1)
+			(mid -1.5 0)
+			(end -0.4 -1.1)
+			(stroke
+				(width 0.01)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "9be568bf-e453-49ed-aafa-58586aadc0b9")
+		)
+		(fp_arc
+			(start 0.4 -1.1)
+			(mid 1.5 0)
+			(end 0.4 1.1)
+			(stroke
+				(width 0.01)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "ff46beb2-9fa0-41de-bf1a-2d35fadd2e6a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a1c50480-a9c0-474f-b4ed-ba3916badbda")
+			(effects
+				(font
+					(size 0.8 0.5)
+					(thickness 0.01)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -2.075 -1.075 270)
+			(size 1.05 0.65)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "626d975c-b1d0-4f2d-ae03-d475b231722e")
+		)
+		(pad "2" smd rect
+			(at 2.075 -1.075 270)
+			(size 1.05 0.65)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(uuid "76105b6b-7a30-42ec-8e1d-11a03917ff14")
+		)
+		(pad "3" smd rect
+			(at -2.075 1.075 270)
+			(size 1.05 0.65)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pinfunction "3_3")
+			(pintype "passive")
+			(uuid "81df5cb4-fa39-4749-974b-eb1a754cd3f2")
+		)
+		(pad "4" smd rect
+			(at 2.075 1.075 270)
+			(size 1.05 0.65)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pinfunction "4_4")
+			(pintype "passive")
+			(uuid "53e6e8b0-231b-48e5-9c27-97329a2711c7")
+		)
+		(embedded_fonts no)
+		(model "kicad-embed://wurthelek_434133025816.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)

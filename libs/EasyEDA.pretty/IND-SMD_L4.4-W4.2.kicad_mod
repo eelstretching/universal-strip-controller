@@ -1,0 +1,182 @@
+(footprint "IND-SMD_L4.4-W4.2"
+	(version 20240101)
+	(generator "pcbnew")
+		(layer "F.Cu")
+		(property "Reference" "L2"
+			(at -0.33 -4.73 90)
+			(layer "F.SilkS")
+			(uuid "1bf7847b-95ca-4485-b284-dbf7074168f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "FXL0420-1R5-M"
+			(at 0 4 90)
+			(layer "F.Fab")
+			(uuid "abb5a944-df95-4140-b369-0a5e677c8f6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Power-Inductors_1-5uH-20_C167205.html"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df711334-1f2b-45a1-9b62-1980bcce3db8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed22e889-17c8-494d-a98e-89961c207fd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C167205"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d78e2345-5600-4dd4-88c3-1e2c7dcb785f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2.28 2.18)
+			(end 2.28 2.18)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f04318e2-dd19-4713-8ce8-46eaa352f26c")
+		)
+		(fp_line
+			(start 2.28 2.18)
+			(end 2.28 1.21)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "76e8a72d-6af1-4d12-976e-0a3882fa7aab")
+		)
+		(fp_line
+			(start -2.28 1.21)
+			(end -2.28 2.18)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6dcb4956-ee59-42a2-a6d0-a9e2ec3d6ef1")
+		)
+		(fp_line
+			(start -2.28 -1.21)
+			(end -2.28 -2.18)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7c9df6e1-3a3f-4abe-b0f6-7077a27c1fce")
+		)
+		(fp_line
+			(start -2.28 -2.18)
+			(end 2.28 -2.18)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "86c26f5e-00b0-4ac2-bd6b-20d5e2392200")
+		)
+		(fp_line
+			(start 2.28 -2.18)
+			(end 2.28 -1.21)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c32dc55c-6523-4251-b787-76a6a7337193")
+		)
+		(fp_circle
+			(center 2.2 -2.1)
+			(end 2.23 -2.1)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "d5b88d4b-bd81-4c41-aa15-a90987d5595a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "1b85d485-0d11-40fc-ae8a-74c12440a9c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 2.03 0 270)
+			(size 1.4 2.12)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pinfunction "1_1")
+			(pintype "unspecified")
+			(uuid "cd6063bb-1fdd-4309-87db-0c0a92b2032d")
+		)
+		(pad "2" smd rect
+			(at -2.03 0 270)
+			(size 1.4 2.12)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pinfunction "2_2")
+			(pintype "unspecified")
+			(uuid "15624412-7893-4ea2-b0ab-7157ccce181e")
+		)
+		(embedded_fonts no)
+		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/IND-SMD_L4.2-W4.4-H2.0.wrl"
+			(offset
+				(xyz 0 -0 -0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)

@@ -1,0 +1,384 @@
+(footprint "onsemi_ncp1117st33t3g"
+	(version 20240101)
+	(generator "pcbnew")
+		(layer "F.Cu")
+		(property "Reference" "U2"
+			(at 4 0.05 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "a2395317-6dac-4845-a5b8-757c01e70c41")
+			(effects
+				(font
+					(size 0.8 0.5)
+					(thickness 0.125)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "NCP1117ST33T3G"
+			(at 0 1.7 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b808922-6ac2-4455-aa4c-cf267d7ff4d1")
+			(effects
+				(font
+					(size 0.8 0.5)
+					(thickness 0.01)
+					(bold yes)
+				)
+			)
+		)
+		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Integrated_Circuits\\Power\\LDO\\ONSEMI_NCP1117ST33T3G\\datasheets"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1dc7625-c32e-4dfd-a3b7-c913e33c2981")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "LDO, Vin=4.75-20V, Vout=3.3V, 1A min, SOT-223"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95ad1b48-ea69-4bbd-8bce-b781e3391db5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "part_uid" "RP-01JWD9-7JRX6J"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43f0108f-b3d9-496c-a408-40087e1c1046")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "status" "OK"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "283a8871-c88e-4a30-ba83-309af51dfc7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manufacturer" "ON Semiconductor"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f793dca-b9d4-47bb-890e-7889e9587fd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manufacturer_pn" "NCP1117ST33T3G"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6e3a9a1-7879-4bc6-807c-3f36cd493d03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "packaging" "Tape & Reel"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "296f2282-4a0e-480d-8736-aa6449af268c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "packaging_qty" "4000"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d58c3a41-b750-4e1c-a0ed-0fc69780a1fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc_pn" "C26537"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b16e697c-674e-4fe7-b43b-f2fa88f545e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "voltage" "3.3V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf404ea3-8b23-401a-a8eb-4c369d6deb23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "operating_temp_max" "+125C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59324d35-bc85-48f3-be20-a9334c3814b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "operating_temp_min" "+0C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58306112-c60c-4a0d-829b-1d48fea8d3fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "z_height_max" "1.8mm"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90a6338b-c86d-40a6-8058-6fb2952e1fb5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "package" "SOT-223"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28afcb5e-0dd2-4a94-afc2-a5315d05d801")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "size" "6.5x7x1.8mm"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2d0f73d-d0f5-4684-95cd-e80e850e2a39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "current" "1A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae0231d3-b77a-4114-9cf9-3f467ca6bd6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "z_height_nom" "1.8mm"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25d0d319-d757-4e1f-be12-5452e3a334d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "RPI_COMPILED:onsemi_ncp1117st33t3g")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -3.25 -3.75)
+			(end 3.25 3.5)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "0bc78540-339e-4fd4-a79d-b5ed540d890b")
+		)
+		(fp_rect
+			(start 1.93 1.75)
+			(end 2.67 3.5)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "32f5ed8f-8b48-4c93-bf98-924aaafbf92c")
+		)
+		(fp_rect
+			(start -0.37 1.75)
+			(end 0.37 3.5)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "43e6a0bf-6b8f-41be-a386-442f0c0c7d95")
+		)
+		(fp_rect
+			(start -1.5 -3.75)
+			(end 1.5 -1.75)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "0401456b-0af3-47b4-a60c-5c975c9a5812")
+		)
+		(fp_rect
+			(start -2.67 1.75)
+			(end -1.93 3.5)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "b99d3a4d-6038-4edf-b4ac-729474899c13")
+		)
+		(fp_rect
+			(start -3.25 -1.75)
+			(end 3.25 1.75)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "132ec629-91f7-4d68-abef-5b955c5abc63")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "bfd8775a-ba23-453b-baf8-2393e4ac4516")
+			(effects
+				(font
+					(size 0.8 0.5)
+					(thickness 0.01)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -2.3 3.15 180)
+			(size 1.5 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pinfunction "GND_1")
+			(pintype "power_in")
+			(uuid "8a21e960-9c62-4805-a484-5b02f5398c39")
+		)
+		(pad "2" smd rect
+			(at 0 3.15 180)
+			(size 1.5 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pinfunction "OUT_2")
+			(pintype "power_out")
+			(uuid "68dc3a6d-b38f-4404-97ae-c88c56ad9e1f")
+		)
+		(pad "3" smd rect
+			(at 2.3 3.15 180)
+			(size 1.5 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pinfunction "IN_3")
+			(pintype "power_in")
+			(uuid "ba03ce7f-6813-4c26-bca4-c784a5e5882f")
+		)
+		(pad "4" smd rect
+			(at 0 -3.15 180)
+			(size 3.8 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pinfunction "OUT_4")
+			(pintype "power_out")
+			(uuid "1341e16d-6498-4050-9bf0-38b621903fe5")
+		)
+		(embedded_fonts no)
+		(model "kicad-embed://onsemi_ncp1117st33t3g.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
+		)
+	)

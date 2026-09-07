@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PixelBlit")(type "KiCad")(uri "${KIPRJMOD}/../pico-pixel/PixelBlit.kicad_sym")(options "")(descr "Shared parts reused from pico-pixel"))
+  (lib (name "RPI_DB")(type "KiCad")(uri "${KIPRJMOD}/libs/RPI_DB.kicad_sym")(options "")(descr "Extracted from the RPI-RP2350B-MINIMAL reference schematic's own symbol cache"))
+  (lib (name "RPI - Power")(type "KiCad")(uri "${KIPRJMOD}/libs/RPI_Power.kicad_sym")(options "")(descr "Extracted from the RPI-RP2350B-MINIMAL reference schematic's own symbol cache"))
+  (lib (name "EasyEDA")(type "KiCad")(uri "${KIPRJMOD}/libs/EasyEDA.kicad_sym")(options "")(descr "Extracted from this project's own schematic symbol cache"))
+  (lib (name "PCM_JLCPCB-Diodes")(type "KiCad")(uri "${KIPRJMOD}/libs/PCM_JLCPCB-Diodes.kicad_sym")(options "")(descr "Extracted from this project's own schematic symbol cache"))
+  (lib (name "PCM_JLCPCB-Resistors")(type "KiCad")(uri "${KIPRJMOD}/libs/PCM_JLCPCB-Resistors.kicad_sym")(options "")(descr "Extracted from this project's own schematic symbol cache"))
+)

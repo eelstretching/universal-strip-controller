@@ -1419,7 +1419,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_JLCPCB:R_0603"
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 				(at -1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6289,7 +6289,7 @@
 					)
 				)
 			)
-			(property "Footprint" "RPI_COMPILED:rpi_rp2350b"
+			(property "Footprint" "RPI_COMPILED:rpi_rp2350b_vias"
 				(at -2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -11079,6 +11079,10 @@
 		(uuid "ff07132b-95a4-46c5-84c4-cee7bfe8739c")
 	)
 	(no_connect
+		(at 373.38 198.12)
+		(uuid "23302d84-2a90-4840-8324-aa6d9274e503")
+	)
+	(no_connect
 		(at 356.87 116.84)
 		(uuid "29cd6c2d-571f-4e2e-8775-a56280c196f7")
 	)
@@ -11087,8 +11091,16 @@
 		(uuid "4513c06d-4191-441c-bca8-c042faba4646")
 	)
 	(no_connect
+		(at 346.71 214.63)
+		(uuid "46e28d93-ce10-48cd-8a42-cc0077c2d976")
+	)
+	(no_connect
 		(at 331.47 127)
 		(uuid "60ec37f7-df46-490c-8768-7b51ac59b8f3")
+	)
+	(no_connect
+		(at 373.38 195.58)
+		(uuid "865b18e9-5eaa-4a2c-9112-bdef153d8f57")
 	)
 	(no_connect
 		(at 48.26 63.5)
@@ -14383,6 +14395,95 @@
 			(justify left bottom)
 		)
 		(uuid "28dc20e2-f9ae-4c46-8f72-22fa2023d1ae")
+	)
+	(symbol
+		(lib_id "PixelBlit:PWR_FLAG")
+		(at 251.46 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b98cac30-d73c-4a3a-a151-2b72827c1e76")
+		(property "Reference" "#FLG27"
+			(at 249.555 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 247.65 106.6799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 251.46 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3126aa88-7deb-404d-8824-7c36ca238887")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329"
+					(reference "#FLG27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 243.84 106.68) (xy 251.46 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e657f4c-5063-49ad-a516-460496415982")
 	)
 	(label "GPIO37"
 		(at 241.3 161.29 180)
@@ -23728,6 +23829,95 @@
 		)
 	)
 	(symbol
+		(lib_id "PixelBlit:PWR_FLAG")
+		(at 224.79 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee8bd135-bd79-4c74-a03b-aa4fd2fa89e4")
+		(property "Reference" "#FLG26"
+			(at 222.885 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 220.98 76.1999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 224.79 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0a550e3-8524-46a6-a3f3-0e88f17cac57")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329"
+					(reference "#FLG26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 217.17 76.2) (xy 224.79 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba2756a6-705b-47dc-ae5b-dfe34d522a0e")
+	)
+	(symbol
 		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
 		(at 201.93 36.83 0)
 		(unit 1)
@@ -25753,6 +25943,95 @@
 				)
 			)
 		)
+	)
+	(symbol
+		(lib_id "PixelBlit:PWR_FLAG")
+		(at 85.09 199.39 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddee443d-a279-46d5-b40f-e8cfc03fa52f")
+		(property "Reference" "#FLG25"
+			(at 83.185 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 81.28 199.38989999999998 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 85.09 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df0aa2c8-5c51-4ff3-8b7f-2934040ba408")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329"
+					(reference "#FLG25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 77.47 199.39) (xy 85.09 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2863d20-5b50-44e9-8e51-dcf3c178aa4f")
 	)
 	(symbol
 		(lib_id "RPI - Power:PWR_NET")

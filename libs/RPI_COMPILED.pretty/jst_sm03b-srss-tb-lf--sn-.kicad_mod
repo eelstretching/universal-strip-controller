@@ -1,0 +1,289 @@
+(footprint "jst_sm03b-srss-tb-lf--sn-"
+	(version 20240101)
+	(generator "pcbnew")
+		(layer "F.Cu")
+		(property "Reference" "J4"
+			(at -1.65 -5.05 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "271e7542-a61e-44f7-a922-0c47554e6256")
+			(effects
+				(font
+					(size 0.8 0.5)
+					(thickness 0.125)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SM03B-SRSS-TB(LF)(SN)"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c19f50d-b261-46d3-8cd5-39e1a9142600")
+			(effects
+				(font
+					(size 0.8 0.5)
+					(thickness 0.01)
+				)
+			)
+		)
+		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Connectors\\Rectangular\\JST_SM03B-SRSS-TB-LF--SN-\\datasheets"
+			(at 0 0.7 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5cdb29e-a7e2-45fd-9a6a-ae0dfb09aeb2")
+			(effects
+				(font
+					(size 0.8 0.5)
+					(thickness 0.01)
+				)
+			)
+		)
+		(property "Description" "Header, JST-SH, 01x03W, Pitch=1mm, SMD, Right Angle"
+			(at 0 0.7 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78975865-30f6-485b-84c4-555636433328")
+			(effects
+				(font
+					(size 0.8 0.5)
+					(thickness 0.01)
+				)
+			)
+		)
+		(property "part_uid" "RP-01EKJ1-8V9SV1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a299b501-3d7c-4253-bf1e-9c1b73be6eba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "status" "OK"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d56e1c89-e227-4e85-bd8a-4740bdd86a3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manufacturer" "JST"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41db09f8-f7f0-4db8-a1e5-27c76bcb20fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manufacturer_pn" "SM03B-SRSS-TB(LF)(SN)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e921ad1c-7533-4ae9-8f40-b480958be096")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "packaging" "380mm dia. tape & reel"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ae83777-906b-4576-ab9c-46ce2f58ceeb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "packaging_qty" "3000"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47d7994f-7531-45b8-9180-c9a418e5e7fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc_pn" "C160403"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69ef1f41-3dde-46d4-a262-f3b3a04aa7b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "size" "5x4.95x2.95mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eeff29f4-57b0-4b4b-b109-f1f1756ccc4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "z_height_max" "3.25mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df3f99bf-7df4-417c-ac3c-292da89bae83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "z_height_nom" "2.95mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3775b557-c17a-4c82-8438-d0345946eec1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "RPI_COMPILED:jst_sm03b-srss-tb-lf--sn-")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5")
+			)
+		)
+		(solder_paste_margin_ratio 0)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy 2.5 0) (xy -2.5 0) (xy -2.5 -4.25) (xy -1.1 -4.25) (xy -1.1 -4.95) (xy -0.9 -4.95) (xy -0.9 -4.25)
+				(xy -0.1 -4.25) (xy -0.1 -4.95) (xy 0.1 -4.95) (xy 0.1 -4.25) (xy 0.9 -4.25) (xy 0.9 -4.95) (xy 1.1 -4.95)
+				(xy 1.1 -4.25) (xy 2.5 -4.25)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "d73278b6-6564-4b6e-9af5-ba94ef3d6ff7")
+		)
+		(fp_poly
+			(pts
+				(xy 2.5 0) (xy -2.5 0) (xy -2.5 -4.25) (xy -1.1 -4.25) (xy -1.1 -4.95) (xy -0.9 -4.95) (xy -0.9 -4.25)
+				(xy -0.1 -4.25) (xy -0.1 -4.95) (xy 0.1 -4.95) (xy 0.1 -4.25) (xy 0.9 -4.25) (xy 0.9 -4.95) (xy 1.1 -4.95)
+				(xy 1.1 -4.25) (xy 2.5 -4.25)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "78459f28-cf52-4033-9068-2b238d15da1b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.6 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a8a783fc-96ce-46b9-954c-20d390539c28")
+			(effects
+				(font
+					(size 0.8 0.5)
+					(thickness 0.01)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1 -4.575 180)
+			(size 0.6 1.55)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pinfunction "P1_1")
+			(pintype "passive")
+			(uuid "eecf4d33-a081-40a2-b082-18047138381e")
+		)
+		(pad "2" smd rect
+			(at 0 -4.575 180)
+			(size 0.6 1.55)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pinfunction "P2_2")
+			(pintype "passive")
+			(uuid "9017a044-d67a-4050-969e-fb2cd8df09b1")
+		)
+		(pad "3" smd rect
+			(at 1 -4.575 180)
+			(size 0.6 1.55)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pinfunction "P3_3")
+			(pintype "passive")
+			(uuid "40fe280b-00e6-4cbd-bc87-622c276f3e7f")
+		)
+		(pad "4" smd rect
+			(at -2.3 -0.7 180)
+			(size 1.2 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pinfunction "SH1_4")
+			(pintype "passive")
+			(uuid "9e4c14a3-cd0e-46fe-a074-95acba325b1a")
+		)
+		(pad "5" smd rect
+			(at 2.3 -0.7 180)
+			(size 1.2 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pinfunction "SH2_5")
+			(pintype "passive")
+			(uuid "1916717d-3b2c-41a4-bc31-0ec5cb051483")
+		)
+		(embedded_fonts no)
+		(model "kicad-embed://jst_sm03b-srss-tb-lf--sn-.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
