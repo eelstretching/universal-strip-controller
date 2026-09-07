@@ -14802,16 +14802,6 @@
 		)
 		(uuid "91e24cd6-5f56-48d5-845e-54ddebea2eb4")
 	)
-	(label "USB_D-"
-		(at 269.24 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "997b7f45-fa44-4b58-9904-cf6afa59d4a4")
-	)
 	(label "GPIO36"
 		(at 241.3 163.83 180)
 		(effects
@@ -14871,16 +14861,6 @@
 			(justify left bottom)
 		)
 		(uuid "b20cc619-6e19-4a07-9335-07f6f1719466")
-	)
-	(label "USB_D+"
-		(at 269.24 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b96c2d75-2ae8-440d-8c35-5983f15c4226")
 	)
 	(label "QSPI_SCLK"
 		(at 43.18 182.88 0)
