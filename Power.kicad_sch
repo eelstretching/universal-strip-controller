@@ -8076,6 +8076,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 116.84) (xy 187.96 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b2174b4-f5b7-4d77-8f7d-39423e56cade")
+	)
+	(wire
+		(pts
 			(xy 162.56 50.8) (xy 165.1 50.8)
 		)
 		(stroke
@@ -8443,6 +8453,16 @@
 			(type default)
 		)
 		(uuid "68763112-bd38-46fc-8285-acc4f3befcd8")
+	)
+	(wire
+		(pts
+			(xy 30.48 48.26) (xy 38.1 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a42cfa8-e87d-4454-b5f8-872eba0b2af4")
 	)
 	(wire
 		(pts
@@ -16473,6 +16493,85 @@
 		)
 	)
 	(symbol
+		(lib_id "PixelBlit:PWR_FLAG")
+		(at 38.1 48.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b115788a-9cd3-4f4a-afc0-d55f65515a61")
+		(property "Reference" "#FLG23"
+			(at 36.195 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 34.29 48.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 38.1 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac79fe77-d467-4b9d-8175-c5ebd7f2b747")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/b2bef3cb-9181-478c-9c64-5764e6fff4f7"
+					(reference "#FLG23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PixelBlit:+5V")
 		(at 30.48 130.81 0)
 		(unit 1)
@@ -18829,7 +18928,7 @@
 	)
 	(symbol
 		(lib_id "PixelBlit:PWR_FLAG")
-		(at 38.1 48.26 90)
+		(at 187.96 116.84 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18838,9 +18937,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b115788a-9cd3-4f4a-afc0-d55f65515a61")
-		(property "Reference" "#FLG23"
-			(at 36.195 48.26 0)
+		(uuid "d81807ad-5379-41e6-8026-975419dc9cea")
+		(property "Reference" "#FLG24"
+			(at 186.055 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18851,7 +18950,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 34.29 48.259899999999995 90)
+			(at 184.15 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18862,7 +18961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 48.26 0)
+			(at 187.96 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18873,7 +18972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 48.26 0)
+			(at 187.96 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18884,7 +18983,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 38.1 48.26 0)
+			(at 187.96 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18895,26 +18994,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "ac79fe77-d467-4b9d-8175-c5ebd7f2b747")
+			(uuid "9fd7777f-0a18-4473-9aeb-5225c1cfe0a7")
 		)
 		(instances
 			(project "universal-strip-controller"
 				(path "/b1a25501-925f-4082-acf3-9513bc59c329/b2bef3cb-9181-478c-9c64-5764e6fff4f7"
-					(reference "#FLG23")
+					(reference "#FLG24")
 					(unit 1)
 				)
 			)
 		)
-	)
-	(wire
-		(pts
-			(xy 30.48 48.26) (xy 38.1 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a42cfa8-e87d-4454-b5f8-872eba0b2af4")
 	)
 	(symbol
 		(lib_id "PixelBlit:GND")
@@ -20364,94 +20453,5 @@
 				)
 			)
 		)
-	)
-	(symbol
-		(lib_id "PixelBlit:PWR_FLAG")
-		(at 187.96 116.84 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d81807ad-5379-41e6-8026-975419dc9cea")
-		(property "Reference" "#FLG24"
-			(at 186.055 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 184.15 116.8399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 187.96 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9fd7777f-0a18-4473-9aeb-5225c1cfe0a7")
-		)
-		(instances
-			(project "universal-strip-controller"
-				(path "/b1a25501-925f-4082-acf3-9513bc59c329/b2bef3cb-9181-478c-9c64-5764e6fff4f7"
-					(reference "#FLG24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 180.34 116.84) (xy 187.96 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b2174b4-f5b7-4d77-8f7d-39423e56cade")
 	)
 )
