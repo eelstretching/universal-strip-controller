@@ -1838,7 +1838,7 @@
 	)
 	(text "Series resistors go near the buffers, not the connection"
 		(exclude_from_sim no)
-		(at 96.266 170.688 0)
+		(at 95.758 179.07 0)
 		(effects
 			(font
 				(size 3.048 3.048)

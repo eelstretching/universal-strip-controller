@@ -1484,22 +1484,64 @@
 		(uuid "c1d531c4-54e6-4427-9a4a-fd86544ec5d6")
 	)
 	(junction
+		(at 152.4 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0437590b-d94e-430a-b3ee-dc7ba2cbf953")
+	)
+	(junction
+		(at 119.38 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05666a44-2062-471d-a87c-19e52f30b20d")
+	)
+	(junction
+		(at 176.53 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06afe481-0f4d-4e52-95e8-7cd4a70a126f")
+	)
+	(junction
+		(at 101.6 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d3e8899-13a7-455a-a228-2055ba27aa42")
+	)
+	(junction
+		(at 194.31 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17cee396-b580-417d-a9fe-be95dbcda84a")
+	)
+	(junction
 		(at 71.12 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17f72730-ce45-4992-ab12-272f0677d224")
 	)
 	(junction
-		(at 185.42 86.36)
+		(at 129.54 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "18cf110c-04a2-4ee1-9801-1ae0b011e8cc")
+		(uuid "18cb4dc3-d5ad-4cd1-a22f-014f6c0e556e")
 	)
 	(junction
-		(at 160.02 86.36)
+		(at 119.38 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "306dea5a-0bba-4049-b507-8826ca89d6ae")
+		(uuid "25576f3e-94ab-4087-9f21-029b3d90e52c")
+	)
+	(junction
+		(at 148.59 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2aab354e-8a9e-4918-b09d-a2f2263cd304")
+	)
+	(junction
+		(at 176.53 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e8bbcfa-46fd-4c05-9cfa-8d71819dcbe4")
 	)
 	(junction
 		(at 185.42 58.42)
@@ -1508,10 +1550,40 @@
 		(uuid "32e04e9b-b13c-44cd-9023-619fd5ac130b")
 	)
 	(junction
+		(at 138.43 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36f961e3-43df-416d-99ce-f5353bd4a820")
+	)
+	(junction
+		(at 119.38 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41b68748-28ca-47e6-9df0-38173452bd5b")
+	)
+	(junction
+		(at 148.59 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43a13302-27c2-4545-ad27-8d50b91895a0")
+	)
+	(junction
+		(at 185.42 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4724bf2b-de57-49c9-a2a5-7c2cd9027c70")
+	)
+	(junction
 		(at 167.64 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c037856-f625-479b-bee4-2d9204c84cd4")
+	)
+	(junction
+		(at 101.6 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e1e8e2e-7279-480f-97e3-bb183e1a6cb0")
 	)
 	(junction
 		(at 204.47 58.42)
@@ -1520,10 +1592,16 @@
 		(uuid "4f6baf36-2ac8-4c2a-9530-51302e4d6748")
 	)
 	(junction
-		(at 54.61 38.1)
+		(at 204.47 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "53a5519b-e8d0-42a7-a213-1f72eb0d0eb7")
+		(uuid "5111e708-1bb2-4c95-be19-f710c52b9391")
+	)
+	(junction
+		(at 167.64 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52a8b0ba-a0ee-41b9-8a3c-dd40525f791f")
 	)
 	(junction
 		(at 91.44 58.42)
@@ -1532,10 +1610,46 @@
 		(uuid "58597baa-0e70-4734-835d-acdc943f828c")
 	)
 	(junction
-		(at 129.54 86.36)
+		(at 138.43 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "70df3b4a-325d-4da7-8772-7e18d3e2581a")
+		(uuid "59e23b43-cf01-4bcd-b9c0-3c95d2417905")
+	)
+	(junction
+		(at 129.54 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5da5b560-3963-4fcb-bbfe-4839a991db54")
+	)
+	(junction
+		(at 176.53 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e140709-7ebb-403c-baa4-d0cb08d77a00")
+	)
+	(junction
+		(at 157.48 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e666764-a222-48f7-af59-1c36b3a3aa7b")
+	)
+	(junction
+		(at 204.47 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70f1b038-aab9-4adf-b5cc-ee58b054e8be")
+	)
+	(junction
+		(at 152.4 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "770823ee-3f6b-457d-a16a-d3809fa3a8d8")
+	)
+	(junction
+		(at 204.47 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7726837f-9607-49fc-9feb-a7eef7725f3c")
 	)
 	(junction
 		(at 110.49 58.42)
@@ -1544,28 +1658,64 @@
 		(uuid "780a3a61-8b42-4be3-a00e-5ec663ca31f9")
 	)
 	(junction
-		(at 148.59 86.36)
+		(at 213.36 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7fb3d2c9-237f-40e6-9617-8af81203c7f4")
+		(uuid "7f0caa77-1796-4655-a245-4832d6530fe9")
 	)
 	(junction
-		(at 204.47 86.36)
+		(at 101.6 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "82e0786a-9ee1-4742-ba5d-359d51ee4a97")
+		(uuid "8056d72f-5171-4138-b0a3-ad4c6205c719")
 	)
 	(junction
-		(at 64.77 58.42)
+		(at 160.02 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9177ae5c-efa8-4cf5-a9dc-80b012424656")
+		(uuid "87978bfd-dc21-49c8-8fb9-e2c35049195a")
 	)
 	(junction
-		(at 110.49 86.36)
+		(at 110.49 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9bb2fdd5-31d8-4557-b44e-16ac6635363e")
+		(uuid "89f54352-fadc-4153-ab6d-65b2bd0d7f21")
+	)
+	(junction
+		(at 148.59 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d054bdb-0158-4658-b367-534ffa828def")
+	)
+	(junction
+		(at 110.49 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f88ecf6-b8a7-4f6e-a478-34ee473b2f59")
+	)
+	(junction
+		(at 176.53 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9361a388-985c-4c8a-93b7-d4477f5aafbf")
+	)
+	(junction
+		(at 101.6 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b2de209-8e55-4daa-92aa-714c61fce3d8")
+	)
+	(junction
+		(at 213.36 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d0c743f-1602-49dc-b703-ae3e5d447fc3")
+	)
+	(junction
+		(at 119.38 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0ccaf5c-5a09-478b-8422-e40627857eed")
 	)
 	(junction
 		(at 129.54 58.42)
@@ -1574,30 +1724,110 @@
 		(uuid "a102fcdc-f0ab-4851-9674-fdf9affd3c2a")
 	)
 	(junction
+		(at 194.31 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6a4d44e-a7c5-4b31-8106-8510c5174a11")
+	)
+	(junction
+		(at 167.64 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab0d9657-a5aa-49c1-96d3-f44ce08ee85d")
+	)
+	(junction
+		(at 194.31 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad064371-9330-4ef8-9016-596463f11b5c")
+	)
+	(junction
+		(at 138.43 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b58f7f7f-521a-4371-b1aa-0fb905bd8fc5")
+	)
+	(junction
 		(at 148.59 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb9d9807-9661-48a5-9387-640168faeb66")
 	)
 	(junction
-		(at 167.64 86.36)
+		(at 213.36 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e6b7649c-aa91-4b80-b45f-38f9aff81247")
+		(uuid "cd2548aa-9103-4df6-a8ed-24f48a6cfc11")
+	)
+	(junction
+		(at 157.48 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d32d9101-d855-4191-8bc5-46007fd7fb14")
+	)
+	(junction
+		(at 129.54 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6b2d9a9-73d5-4b5f-867b-10288da8f8c1")
+	)
+	(junction
+		(at 194.31 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d82371ec-b4ef-4b89-8d1e-654cf1f81a13")
+	)
+	(junction
+		(at 138.43 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da0b1d39-3e94-460e-8aff-22d7c5648899")
+	)
+	(junction
+		(at 157.48 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e27d5ee0-5e73-4ce9-b1be-4192a8492cea")
+	)
+	(junction
+		(at 213.36 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e430b276-a77f-44a9-a91d-53f0578b3178")
+	)
+	(junction
+		(at 185.42 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e62388f9-283c-481d-ac4b-2ebb9fa9756f")
+	)
+	(junction
+		(at 110.49 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e714e9b1-6d6d-4105-8668-8b4945639821")
+	)
+	(junction
+		(at 185.42 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9436698-34b4-4a25-a7d4-3000c1e844b6")
+	)
+	(junction
+		(at 157.48 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee073a11-c800-41b6-a008-952eba7dc562")
+	)
+	(junction
+		(at 167.64 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f79b04f2-bcb3-45bb-834f-1dc9a1bdd384")
 	)
 	(no_connect
-		(at 231.14 76.2)
-		(uuid "d279188d-65af-4862-bd86-b458232bfde1")
-	)
-	(wire
-		(pts
-			(xy 185.42 86.36) (xy 167.64 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "037ea30a-6fbe-4cf8-8e75-6bb4779ab3e3")
+		(at 231.14 87.63)
+		(uuid "d0137e33-8e2d-4392-ba13-4ab91ffeb0da")
 	)
 	(wire
 		(pts
@@ -1621,23 +1851,83 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 86.36) (xy 185.42 86.36)
+			(xy 110.49 73.66) (xy 119.38 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08595449-5802-4e5c-a4be-a237a5206ae9")
+		(uuid "08434da2-e626-447c-8948-f0827877c238")
 	)
 	(wire
 		(pts
-			(xy 54.61 38.1) (xy 64.77 38.1)
+			(xy 119.38 34.29) (xy 129.54 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d53883a-531a-4742-94db-24af9f27248f")
+		(uuid "0872ee39-b865-4a6e-b20b-afacb08fa39e")
+	)
+	(wire
+		(pts
+			(xy 167.64 34.29) (xy 167.64 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08dd9a7d-b81d-4342-80a6-f04b6f52bc3c")
+	)
+	(wire
+		(pts
+			(xy 148.59 73.66) (xy 152.4 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd3965f-7661-4d9e-9820-311ee4a9884d")
+	)
+	(wire
+		(pts
+			(xy 129.54 34.29) (xy 129.54 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec0cb6b-554f-496b-bf38-2de5694f2a91")
+	)
+	(wire
+		(pts
+			(xy 148.59 34.29) (xy 148.59 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fa1c434-6d06-46dc-94d9-020f8cae5863")
+	)
+	(wire
+		(pts
+			(xy 185.42 95.25) (xy 185.42 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1217500e-88d8-41c5-9a69-bbe842c3870c")
+	)
+	(wire
+		(pts
+			(xy 204.47 73.66) (xy 204.47 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1396c9ed-1f6d-4dcf-aef5-7050a1cc2e3c")
 	)
 	(wire
 		(pts
@@ -1651,7 +1941,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 58.42) (xy 64.77 58.42)
+			(xy 52.07 58.42) (xy 71.12 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1661,13 +1951,73 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 83.82) (xy 223.52 86.36)
+			(xy 193.04 87.63) (xy 196.85 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20d15a38-2c39-425f-ad48-d2dedbfa6094")
+		(uuid "16cf6d06-8064-4f21-949b-36b1d8d20693")
+	)
+	(wire
+		(pts
+			(xy 167.64 34.29) (xy 176.53 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17952a9c-8370-436f-b45c-28ceb782abd1")
+	)
+	(wire
+		(pts
+			(xy 213.36 34.29) (xy 223.52 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af9cbd9-39bc-467b-80a0-b2ebbcdcdc19")
+	)
+	(wire
+		(pts
+			(xy 152.4 68.58) (xy 152.4 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c796ba1-a134-4d45-b26a-c7d02257f7d1")
+	)
+	(wire
+		(pts
+			(xy 213.36 97.79) (xy 204.47 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cfb74e3-401c-4b76-9616-6b791ad615ef")
+	)
+	(wire
+		(pts
+			(xy 119.38 97.79) (xy 110.49 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2094b2af-0ed9-4b3d-a9f5-65b6e50ae5fd")
+	)
+	(wire
+		(pts
+			(xy 194.31 34.29) (xy 194.31 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e1e4b8-46c8-46c7-83fc-85b04ad71da2")
 	)
 	(wire
 		(pts
@@ -1681,77 +2031,117 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 83.82) (xy 185.42 86.36)
+			(xy 231.14 62.23) (xy 81.28 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "257daf05-5d95-4837-a9fc-67ad196057e6")
+		(uuid "26f10376-c219-4f17-a683-37fd8fe8ab76")
 	)
 	(wire
 		(pts
-			(xy 91.44 86.36) (xy 110.49 86.36)
+			(xy 129.54 73.66) (xy 129.54 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "286785aa-55ef-41f9-9b1b-586d60e0d1a2")
+		(uuid "27fc2d88-ecb7-4d4d-b2a3-8194482e4f5f")
 	)
 	(wire
 		(pts
-			(xy 175.26 76.2) (xy 177.8 76.2)
+			(xy 176.53 82.55) (xy 176.53 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29d8e40b-c3b9-4326-935d-33f20ff24f63")
+		(uuid "29650fbf-bb60-4c03-832f-fc228dfc7e6c")
 	)
 	(wire
 		(pts
-			(xy 99.06 76.2) (xy 102.87 76.2)
+			(xy 213.36 73.66) (xy 213.36 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3049872d-389d-483b-ac49-554e9dfc5ea7")
+		(uuid "2a90ca1a-f572-45a8-ab0c-8eaf5f7a06fd")
 	)
 	(wire
 		(pts
-			(xy 204.47 83.82) (xy 204.47 86.36)
+			(xy 91.44 73.66) (xy 101.6 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36d725d5-8911-4bd3-a0d3-8e5a8f91d1c6")
+		(uuid "2ac89852-8fa9-4a0d-b374-910d53cad65d")
 	)
 	(wire
 		(pts
-			(xy 99.06 48.26) (xy 102.87 48.26)
+			(xy 119.38 34.29) (xy 119.38 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3bc8ac10-50ef-4e94-aa57-ad89e1ffa755")
+		(uuid "2d31962a-40d0-49c1-8c89-9054cf421d17")
 	)
 	(wire
 		(pts
-			(xy 64.77 58.42) (xy 71.12 58.42)
+			(xy 119.38 73.66) (xy 129.54 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ee043e6-9a88-4a26-9a99-7b87f9bf3fe3")
+		(uuid "33f2fcdb-bf58-4688-9a37-9571192e1949")
 	)
 	(wire
 		(pts
-			(xy 76.2 48.26) (xy 62.23 48.26)
+			(xy 213.36 58.42) (xy 204.47 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "372a0f2d-d533-4e55-bc89-7d4c39c8fc16")
+	)
+	(wire
+		(pts
+			(xy 176.53 43.18) (xy 176.53 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd98985-e1e8-4e89-8924-667525dff073")
+	)
+	(wire
+		(pts
+			(xy 176.53 58.42) (xy 167.64 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db6cbb5-425c-404e-a63e-12011e1af50c")
+	)
+	(wire
+		(pts
+			(xy 91.44 80.01) (xy 91.44 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40ac06b0-3f43-4443-9ac2-81942723f1c7")
+	)
+	(wire
+		(pts
+			(xy 69.85 48.26) (xy 62.23 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1761,37 +2151,107 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 76.2) (xy 121.92 76.2)
+			(xy 213.36 73.66) (xy 223.52 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c5dbf1b-ee80-4e70-97a8-e404f6320ea4")
+		(uuid "47042cd6-145e-46a9-b81b-9939e4633b3a")
 	)
 	(wire
 		(pts
-			(xy 193.04 76.2) (xy 196.85 76.2)
+			(xy 138.43 43.18) (xy 138.43 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5035804a-c3ac-47e5-b8c8-c2b68aac317b")
+		(uuid "4c438d42-35e3-4d68-9b08-3dfd19ff30f4")
 	)
 	(wire
 		(pts
-			(xy 231.14 62.23) (xy 83.82 62.23)
+			(xy 185.42 34.29) (xy 194.31 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "547bb32e-ff88-4fa9-a85e-ae857a4b444a")
+		(uuid "4cca0fe8-cee1-4a6a-a5ec-4e037f523beb")
 	)
 	(wire
 		(pts
-			(xy 71.12 58.42) (xy 110.49 58.42)
+			(xy 148.59 97.79) (xy 138.43 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dd335eb-460c-46d2-af06-0712bfe56058")
+	)
+	(wire
+		(pts
+			(xy 160.02 97.79) (xy 167.64 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e1783b6-9326-439e-9b8d-aa63ca6f770f")
+	)
+	(wire
+		(pts
+			(xy 110.49 34.29) (xy 119.38 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e591bed-0ca8-434e-8ca9-425765960c47")
+	)
+	(wire
+		(pts
+			(xy 167.64 95.25) (xy 167.64 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5114597c-ce85-496e-9ae9-5248c7be14e9")
+	)
+	(wire
+		(pts
+			(xy 194.31 97.79) (xy 185.42 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "528e0e92-4bf2-42ac-a220-452692e1e06e")
+	)
+	(wire
+		(pts
+			(xy 185.42 73.66) (xy 185.42 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52cfaa10-d701-458e-aa74-fce106de0833")
+	)
+	(wire
+		(pts
+			(xy 129.54 34.29) (xy 138.43 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "554a1506-3a45-4593-b27c-0b84be186d3b")
+	)
+	(wire
+		(pts
+			(xy 71.12 58.42) (xy 101.6 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1801,13 +2261,83 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 58.42) (xy 148.59 58.42)
+			(xy 157.48 34.29) (xy 167.64 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568e8e60-40d2-472a-b036-abedbe31b087")
+	)
+	(wire
+		(pts
+			(xy 101.6 73.66) (xy 101.6 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a0f5a9-4505-4be9-b493-8b2b2edcb646")
+	)
+	(wire
+		(pts
+			(xy 213.36 82.55) (xy 213.36 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d296d95-ae27-469e-b295-c21efd135624")
+	)
+	(wire
+		(pts
+			(xy 81.28 87.63) (xy 83.82 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd4b540-1eca-4931-a090-ee8108712296")
+	)
+	(wire
+		(pts
+			(xy 204.47 34.29) (xy 204.47 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df39ce5-e43f-4e3a-ab7d-03a5e778ff47")
+	)
+	(wire
+		(pts
+			(xy 167.64 58.42) (xy 157.48 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6241ef61-35ca-4382-964c-aa1794319e5d")
+	)
+	(wire
+		(pts
+			(xy 160.02 105.41) (xy 160.02 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e7c3d6-5f2b-48c8-bedf-d7db8283b9f1")
+	)
+	(wire
+		(pts
+			(xy 138.43 97.79) (xy 129.54 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f31697-29c1-4b5f-9e82-9cad6b57e190")
 	)
 	(wire
 		(pts
@@ -1821,7 +2351,47 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 58.42) (xy 110.49 58.42)
+			(xy 137.16 87.63) (xy 140.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6688f321-8603-4061-b2cc-fd1d8a962c07")
+	)
+	(wire
+		(pts
+			(xy 152.4 73.66) (xy 157.48 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "690381ac-6c7c-44df-9242-0c88bd6e5459")
+	)
+	(wire
+		(pts
+			(xy 138.43 73.66) (xy 148.59 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "695ddcab-1326-40e0-9a24-869bb1696e13")
+	)
+	(wire
+		(pts
+			(xy 138.43 34.29) (xy 138.43 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6960e94f-79c1-4c4b-b999-51cd3e0091bf")
+	)
+	(wire
+		(pts
+			(xy 129.54 58.42) (xy 119.38 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1831,13 +2401,43 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 86.36) (xy 129.54 86.36)
+			(xy 99.06 48.26) (xy 102.87 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7324142f-67b1-42e8-88e2-ff5778a996be")
+		(uuid "6f575b0f-0337-4569-8c4a-e96a77dad652")
+	)
+	(wire
+		(pts
+			(xy 101.6 82.55) (xy 101.6 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70bbf6b2-5336-41eb-a712-baec4bed360c")
+	)
+	(wire
+		(pts
+			(xy 101.6 34.29) (xy 110.49 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "747c4bc2-6b19-4531-b8fb-5717fbcfe057")
+	)
+	(wire
+		(pts
+			(xy 194.31 73.66) (xy 204.47 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b1c9d2-3b94-40f1-84c4-9329921f1edb")
 	)
 	(wire
 		(pts
@@ -1851,7 +2451,17 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 58.42) (xy 185.42 58.42)
+			(xy 185.42 73.66) (xy 194.31 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75d43400-bdb2-43eb-847e-add24abd3673")
+	)
+	(wire
+		(pts
+			(xy 204.47 58.42) (xy 194.31 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1861,33 +2471,113 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 43.18) (xy 64.77 58.42)
+			(xy 157.48 97.79) (xy 148.59 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84d21ee1-01db-4300-a1ba-43f19ec36e61")
+		(uuid "7d9b2ad8-43b9-49af-9182-95dcabd340bf")
 	)
 	(wire
 		(pts
-			(xy 167.64 86.36) (xy 160.02 86.36)
+			(xy 138.43 34.29) (xy 148.59 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a0f0b71-83cc-44a3-81a7-4d3f71e538b1")
+		(uuid "8014eac3-e1ad-42f6-81a4-be3cc8633a08")
 	)
 	(wire
 		(pts
-			(xy 129.54 86.36) (xy 110.49 86.36)
+			(xy 194.31 73.66) (xy 194.31 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8eafad5b-0d07-41c2-a1f5-87835bb50649")
+		(uuid "81c3c265-7409-4368-942a-b80c7dd35c3b")
+	)
+	(wire
+		(pts
+			(xy 176.53 34.29) (xy 176.53 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c4ca80-5ae2-436a-9f4b-8df56c274fae")
+	)
+	(wire
+		(pts
+			(xy 204.47 97.79) (xy 194.31 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c153a6-4471-4d65-b898-1c6e9cde0ae4")
+	)
+	(wire
+		(pts
+			(xy 156.21 87.63) (xy 160.02 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89202840-5636-4a59-8b14-512f46ae76e4")
+	)
+	(wire
+		(pts
+			(xy 157.48 43.18) (xy 157.48 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ae5029-febf-4953-b5c2-e0ae7000469a")
+	)
+	(wire
+		(pts
+			(xy 101.6 34.29) (xy 101.6 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ccf1b7-4998-4a99-b113-e933d82ba503")
+	)
+	(wire
+		(pts
+			(xy 148.59 34.29) (xy 152.4 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c5af4ba-9eb4-4be8-ae80-6f43eb1dca6c")
+	)
+	(wire
+		(pts
+			(xy 223.52 34.29) (xy 223.52 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d630b16-2d51-41d1-9f77-9a466ee6f109")
+	)
+	(wire
+		(pts
+			(xy 223.52 97.79) (xy 213.36 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f37a630-6efb-41cd-b90d-d35cc7d938d7")
 	)
 	(wire
 		(pts
@@ -1901,7 +2591,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 58.42) (xy 167.64 58.42)
+			(xy 185.42 58.42) (xy 176.53 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1911,7 +2601,47 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 58.42) (xy 129.54 58.42)
+			(xy 148.59 95.25) (xy 148.59 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919abcd7-cdaa-45a9-a099-4efced38d3f1")
+	)
+	(wire
+		(pts
+			(xy 91.44 40.64) (xy 91.44 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ee8947-2387-4480-b95a-25d60ec0e334")
+	)
+	(wire
+		(pts
+			(xy 101.6 97.79) (xy 110.49 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "963b815c-1d59-420b-8c01-bfe98a585462")
+	)
+	(wire
+		(pts
+			(xy 176.53 73.66) (xy 185.42 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98963095-5105-4e53-b6c6-a92201b6d634")
+	)
+	(wire
+		(pts
+			(xy 148.59 58.42) (xy 138.43 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1921,47 +2651,187 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 86.36) (xy 160.02 93.98)
+			(xy 185.42 97.79) (xy 176.53 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af75ebf4-734b-43bf-812c-36e2a3a404df")
+		(uuid "9d1165d0-ca69-4c54-89e2-a7d6e2a91d9b")
 	)
 	(wire
 		(pts
-			(xy 137.16 76.2) (xy 140.97 76.2)
+			(xy 77.47 48.26) (xy 83.82 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b58d4377-6d7f-4f17-835e-3f421c6a0e7f")
+		(uuid "a08f0538-905c-4231-8f67-2a33ca8f6ca8")
 	)
 	(wire
 		(pts
-			(xy 223.52 86.36) (xy 204.47 86.36)
+			(xy 223.52 95.25) (xy 223.52 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b65e500b-f2fa-4399-a1ea-7690aa428bc5")
+		(uuid "a207ca8c-c05c-4e92-87f7-5a6dcf55c4ee")
 	)
 	(wire
 		(pts
-			(xy 156.21 76.2) (xy 160.02 76.2)
+			(xy 157.48 34.29) (xy 157.48 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc851eb0-f9c8-4dd0-81d0-11ae8e483269")
+		(uuid "a306df5c-a896-47eb-adaf-6cafbb5088a1")
 	)
 	(wire
 		(pts
-			(xy 223.52 58.42) (xy 204.47 58.42)
+			(xy 91.44 97.79) (xy 101.6 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a40ac8ba-9246-4208-90d6-4e50fb501fe4")
+	)
+	(wire
+		(pts
+			(xy 91.44 34.29) (xy 101.6 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a465c6fa-5315-4721-a095-dace4bc070a2")
+	)
+	(wire
+		(pts
+			(xy 119.38 82.55) (xy 119.38 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8294ece-c27e-4e04-9596-60a6f2594265")
+	)
+	(wire
+		(pts
+			(xy 175.26 87.63) (xy 177.8 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab4c9ccc-b893-4c6f-8915-d8d5a9ba4729")
+	)
+	(wire
+		(pts
+			(xy 185.42 34.29) (xy 185.42 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac4e6eca-2947-4259-a3cd-b636b32c31fa")
+	)
+	(wire
+		(pts
+			(xy 118.11 87.63) (xy 121.92 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae73ef55-7c86-4b74-b93d-6f9b349fcb86")
+	)
+	(wire
+		(pts
+			(xy 91.44 97.79) (xy 91.44 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b33ba36a-45ee-4845-95db-106ca46eaa2d")
+	)
+	(wire
+		(pts
+			(xy 176.53 73.66) (xy 176.53 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b348cc27-67f3-41f8-af77-b87977623f6e")
+	)
+	(wire
+		(pts
+			(xy 101.6 73.66) (xy 110.49 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b37f8def-c569-4b3a-932f-77ea2c2c295f")
+	)
+	(wire
+		(pts
+			(xy 157.48 82.55) (xy 157.48 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5d414c0-d192-46f0-8a77-bcf4374248c6")
+	)
+	(wire
+		(pts
+			(xy 194.31 58.42) (xy 185.42 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7609f46-104c-4536-a6f6-8529565fc5ce")
+	)
+	(wire
+		(pts
+			(xy 194.31 82.55) (xy 194.31 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb44e02-0e77-4d93-b9e5-b75f089b4e36")
+	)
+	(wire
+		(pts
+			(xy 110.49 73.66) (xy 110.49 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc018e6d-c0d7-4ee7-b04b-b9331898afb2")
+	)
+	(wire
+		(pts
+			(xy 223.52 73.66) (xy 223.52 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd8aad39-b9f9-4dcd-9edd-2a0c42280881")
+	)
+	(wire
+		(pts
+			(xy 223.52 58.42) (xy 213.36 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1991,23 +2861,63 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 62.23) (xy 83.82 76.2)
+			(xy 213.36 34.29) (xy 213.36 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c2942da6-2544-486c-9582-313bc0567875")
+		(uuid "c56b42a0-1a4f-42cf-aaca-3853aca11a8b")
 	)
 	(wire
 		(pts
-			(xy 160.02 86.36) (xy 148.59 86.36)
+			(xy 194.31 34.29) (xy 204.47 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5bbb57e-9912-48ae-b233-10ace989b51e")
+		(uuid "c65b10a4-e52d-4d81-a729-9e1e76e3e36d")
+	)
+	(wire
+		(pts
+			(xy 101.6 43.18) (xy 101.6 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6f36b50-d20e-43f9-9842-d9ad1a0e0aa8")
+	)
+	(wire
+		(pts
+			(xy 129.54 97.79) (xy 119.38 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8fdaed4-5bc2-4609-97f1-cb734b324351")
+	)
+	(wire
+		(pts
+			(xy 110.49 34.29) (xy 110.49 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced096c5-5a73-498b-879e-cc59a096290c")
+	)
+	(wire
+		(pts
+			(xy 157.48 97.79) (xy 160.02 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0581665-1a9d-47d3-a973-3eedeb833274")
 	)
 	(wire
 		(pts
@@ -2021,16 +2931,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 76.2) (xy 215.9 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2ddfc15-510b-4d38-9f4a-8c1b02aa47ff")
-	)
-	(wire
-		(pts
 			(xy 204.47 55.88) (xy 204.47 58.42)
 		)
 		(stroke
@@ -2041,6 +2941,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 34.29) (xy 213.36 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d636d09c-71d2-4036-b208-ad241370e3ad")
+	)
+	(wire
+		(pts
 			(xy 167.64 55.88) (xy 167.64 58.42)
 		)
 		(stroke
@@ -2048,16 +2958,6 @@
 			(type default)
 		)
 		(uuid "d78849ae-6e8e-4368-b217-c0eabf065b2e")
-	)
-	(wire
-		(pts
-			(xy 129.54 83.82) (xy 129.54 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d829e760-30c5-4df9-affa-328a9f531462")
 	)
 	(wire
 		(pts
@@ -2081,6 +2981,56 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 73.66) (xy 148.59 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc210401-1ba7-4802-b287-2e2e5e817f92")
+	)
+	(wire
+		(pts
+			(xy 138.43 82.55) (xy 138.43 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1dd117-03a4-4626-8027-08e40f14c494")
+	)
+	(wire
+		(pts
+			(xy 157.48 73.66) (xy 157.48 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd901c78-fcb9-4f96-aa59-26986fb73294")
+	)
+	(wire
+		(pts
+			(xy 81.28 62.23) (xy 81.28 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dffe4c45-b79b-4175-aa20-e8cb378a9e4a")
+	)
+	(wire
+		(pts
+			(xy 213.36 43.18) (xy 213.36 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e290eb2d-32fb-43b8-9727-3af9fe6fe586")
+	)
+	(wire
+		(pts
 			(xy 231.14 48.26) (xy 231.14 62.23)
 		)
 		(stroke
@@ -2091,23 +3041,183 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 86.36) (xy 91.44 83.82)
+			(xy 204.47 73.66) (xy 213.36 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e448ff9d-e3fd-42bd-96d8-eab275bffce6")
+		(uuid "e3c3e313-849e-4d4f-8f05-179b02434029")
 	)
 	(wire
 		(pts
-			(xy 148.59 83.82) (xy 148.59 86.36)
+			(xy 152.4 29.21) (xy 152.4 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ebd59d7c-d5df-489f-ab90-e3c62dcce3c2")
+		(uuid "e52c8f5d-cae1-4f5d-b59f-c25b2389660b")
+	)
+	(wire
+		(pts
+			(xy 110.49 95.25) (xy 110.49 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e927d18a-4fb7-4f2d-87d9-512c2e1d720d")
+	)
+	(wire
+		(pts
+			(xy 157.48 58.42) (xy 148.59 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98f3dc5-4372-4b30-9275-98a00763da8c")
+	)
+	(wire
+		(pts
+			(xy 176.53 97.79) (xy 167.64 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9fcba1c-d4b2-4435-913e-748512a03164")
+	)
+	(wire
+		(pts
+			(xy 101.6 58.42) (xy 110.49 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa4f6af-8959-4f03-8914-e3980f14e6e8")
+	)
+	(wire
+		(pts
+			(xy 152.4 34.29) (xy 157.48 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb0eda4b-0c99-4c00-aaf0-bde2a4e15218")
+	)
+	(wire
+		(pts
+			(xy 99.06 87.63) (xy 102.87 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb3ea54a-ecef-4929-92b6-6423a6a83780")
+	)
+	(wire
+		(pts
+			(xy 157.48 73.66) (xy 167.64 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece5c4a4-b0ba-4bc2-8f4e-d55b2de901c6")
+	)
+	(wire
+		(pts
+			(xy 167.64 73.66) (xy 176.53 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed334620-9511-4409-930b-eda99893d959")
+	)
+	(wire
+		(pts
+			(xy 138.43 58.42) (xy 129.54 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef568b15-594b-4089-9b8d-7693f7c3cbd0")
+	)
+	(wire
+		(pts
+			(xy 129.54 95.25) (xy 129.54 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2570035-ea2d-420c-b9c7-68cc7e16da6a")
+	)
+	(wire
+		(pts
+			(xy 129.54 73.66) (xy 138.43 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e79139-2d81-42b4-a78c-5cbdd3ed7f47")
+	)
+	(wire
+		(pts
+			(xy 194.31 43.18) (xy 194.31 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f30f6435-eca8-43f3-b664-988d71e47087")
+	)
+	(wire
+		(pts
+			(xy 167.64 73.66) (xy 167.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f419db09-eda2-4586-9e3a-0b2c349bb730")
+	)
+	(wire
+		(pts
+			(xy 119.38 58.42) (xy 110.49 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4611d09-370d-4dcc-8272-7c83d19c9d51")
+	)
+	(wire
+		(pts
+			(xy 119.38 73.66) (xy 119.38 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4a7319f-f806-4655-91cc-d0cb0ee40bdd")
+	)
+	(wire
+		(pts
+			(xy 212.09 87.63) (xy 215.9 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f59be84f-abd3-4d6c-af0c-c76748ac532d")
 	)
 	(wire
 		(pts
@@ -2121,6 +3231,46 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 43.18) (xy 119.38 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f75c173e-617b-4260-859f-6617b002d43c")
+	)
+	(wire
+		(pts
+			(xy 176.53 34.29) (xy 185.42 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7685c02-c6b8-4bcf-a405-c14bfe444a5e")
+	)
+	(wire
+		(pts
+			(xy 204.47 95.25) (xy 204.47 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f78cce39-3c67-44a7-b36a-ec48c053f386")
+	)
+	(wire
+		(pts
+			(xy 138.43 73.66) (xy 138.43 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9500ba5-e9ae-4803-a8f9-290d11174948")
+	)
+	(wire
+		(pts
 			(xy 35.56 55.88) (xy 41.91 53.34)
 		)
 		(stroke
@@ -2128,26 +3278,6 @@
 			(type default)
 		)
 		(uuid "fae3b455-83b4-402a-ba0c-2e5a042df7ce")
-	)
-	(wire
-		(pts
-			(xy 167.64 83.82) (xy 167.64 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb71aac7-d27a-45e6-8c1f-983005ed030c")
-	)
-	(wire
-		(pts
-			(xy 110.49 83.82) (xy 110.49 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbe97737-16c4-483e-8714-0d056d54ec53")
 	)
 	(global_label "STATUS_LED_DATA"
 		(shape input)
@@ -2170,180 +3300,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 110.49 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00f2f10e-cf5d-4651-b0d1-fefbb8eddb07")
-		(property "Reference" "D18"
-			(at 118.364 81.788 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI"
-			(at 118.364 84.328 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 111.76 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 113.03 85.725 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 110.49 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c1e48e2e-013d-4cce-bda4-b60e958b8dfb")
-		)
-		(pin "2"
-			(uuid "15a8fedb-e61e-409a-8c35-d694cd977d17")
-		)
-		(pin "3"
-			(uuid "4ff5a6d6-518c-420d-b6bc-5aefc0cbde47")
-		)
-		(pin "4"
-			(uuid "b04706a0-e262-485e-afcb-9ba58f8c4256")
-		)
-		(instances
-			(project "universal-strip-controller"
-				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
-					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 223.52 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "02ca8516-7d66-4a83-a969-493dced7220c")
-		(property "Reference" "D24"
-			(at 231.394 81.788 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI"
-			(at 231.394 84.328 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 224.79 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 226.06 85.725 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 223.52 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4d0ac594-a7f1-49d3-b9ac-9b29006368cf")
-		)
-		(pin "2"
-			(uuid "ca6fb201-0900-429a-b139-1dc1d4f4f240")
-		)
-		(pin "3"
-			(uuid "1fd2aa51-522d-4074-886e-6fe5afbbdf6c")
-		)
-		(pin "4"
-			(uuid "2d21e7c9-a081-4c16-ac08-3fbe4bde1fce")
-		)
-		(instances
-			(project "universal-strip-controller"
-				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
-					(reference "D24")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2429,83 +3385,6 @@
 			(project "universal-strip-controller"
 				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RPI - Power:PWR_NET")
-		(at 91.44 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0b38375f-790c-4166-b14a-7e7614e77df7")
-		(property "Reference" "#PWR060"
-			(at 91.44 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 91.44 64.77 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a093ad4a-8c6f-4f40-8d69-5005bb1056e3")
-		)
-		(instances
-			(project "universal-strip-controller"
-				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
-					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -2600,7 +3479,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812MINI")
-		(at 129.54 76.2 0)
+		(at 110.49 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2608,9 +3487,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0ef4d4d6-a3be-4433-bf8b-9cc922dace16")
-		(property "Reference" "D19"
-			(at 137.414 81.788 0)
+		(uuid "102cad9a-c638-49d4-bad5-98d4401778ad")
+		(property "Reference" "D18"
+			(at 118.364 93.218 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2620,7 +3499,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 137.414 84.328 0)
+			(at 118.364 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2630,7 +3509,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 130.81 83.82 0)
+			(at 111.76 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2642,7 +3521,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 132.08 85.725 0)
+			(at 113.03 97.155 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2654,7 +3533,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 129.54 76.2 0)
+			(at 110.49 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2665,21 +3544,484 @@
 			)
 		)
 		(pin "1"
-			(uuid "c30898ff-0539-462b-bb77-5a82b54a40a7")
+			(uuid "b4bb2519-0092-48a0-b5a0-d90f184e64d2")
 		)
 		(pin "2"
-			(uuid "d6d84bdd-6687-4576-b195-8e2bc42e9894")
+			(uuid "d76ca8ef-2be3-4295-82ef-69400fa6c607")
 		)
 		(pin "3"
-			(uuid "d93516d1-fd78-403b-a78b-4ca37811e398")
+			(uuid "69708ba2-0a44-454a-a06c-db01f9aa5f20")
 		)
 		(pin "4"
-			(uuid "389095af-564c-423c-9200-6ca83db269d5")
+			(uuid "345deb16-a5e9-4570-991c-b61232742570")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 148.59 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "27836cda-d1b2-4eaa-9fb5-ce96da173fed")
+		(property "Reference" "D20"
+			(at 156.464 93.218 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 156.464 95.758 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(at 149.86 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 151.13 97.155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 148.59 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ea5097a-8f73-4c0e-a0dd-ee462e80bce1")
+		)
+		(pin "2"
+			(uuid "637c9f69-ac78-4162-b5b1-c553f099f139")
+		)
+		(pin "3"
+			(uuid "f7dc1b35-9b3a-4f3c-bda0-38baabef751b")
+		)
+		(pin "4"
+			(uuid "b7c2a0d1-6af7-4463-b2b3-572e3cd91aba")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
+		(at 138.43 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "35f08898-92a2-45c4-b4bd-a13b81b3e36e")
+		(property "Reference" "C128"
+			(at 140.462 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 140.462 76.962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
+			(at 138.43 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
+			(at 138.43 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
+			(at 138.43 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part_uid" "RP-01BJ9Y-KRGF41"
+			(at 138.43 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer" "Murata"
+			(at 138.43 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer_pn" "GRM155R71E104KE14D"
+			(at 138.43 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "capacitance" "100n"
+			(at 138.43 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e037d8f-ca81-4a4e-b94e-99ab2efcc3b4")
+		)
+		(pin "2"
+			(uuid "52cdbd38-d115-4117-8ca3-be64496419ff")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
+					(reference "C128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RPI - Power:GND")
+		(at 160.02 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "35f908c8-2c40-4415-b501-0ee2e224e936")
+		(property "Reference" "#PWR0152"
+			(at 160.02 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 109.347 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f2a5b20c-495b-4084-a6d0-c237af10184b")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 129.54 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "404361c1-dadc-477e-a1ff-2bc955074de0")
+		(property "Reference" "D19"
+			(at 137.414 93.218 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 137.414 95.758 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(at 130.81 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 132.08 97.155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 129.54 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "07a49b88-7c93-42ca-97cb-d2e5c92548f7")
+		)
+		(pin "2"
+			(uuid "67f3cd00-6e65-49c9-81e0-df14f8a6db38")
+		)
+		(pin "3"
+			(uuid "d7ae1fff-66c2-4c03-a224-e015fe10e2b9")
+		)
+		(pin "4"
+			(uuid "8e2cba6c-c0f1-4fd9-b6ed-2e04ca9894ea")
 		)
 		(instances
 			(project "universal-strip-controller"
 				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
 					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 204.47 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "40bceaa2-43ca-43ef-b2e6-0646944f5d9a")
+		(property "Reference" "D23"
+			(at 212.344 93.218 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 212.344 95.758 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(at 205.74 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 207.01 97.155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 204.47 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2908683-c164-41e1-b5bc-a3714b3e1a18")
+		)
+		(pin "2"
+			(uuid "39600ac9-5a12-44d0-8174-a94c12c9f2e2")
+		)
+		(pin "3"
+			(uuid "e3f31a14-f1bf-4ffe-bdb5-2f716cdf0ee8")
+		)
+		(pin "4"
+			(uuid "70b1c5f0-c610-47a7-a3a1-46d60ce6e0d0")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -2764,8 +4106,8 @@
 		)
 	)
 	(symbol
-		(lib_id "RPI - Power:GND")
-		(at 160.02 93.98 0)
+		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
+		(at 176.53 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2773,9 +4115,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5498d2b6-fb4b-4ec8-bf93-db0782561c58")
-		(property "Reference" "#PWR061"
-			(at 160.02 100.33 0)
+		(uuid "499a7e36-111b-4d99-bbd7-d697650cbbab")
+		(property "Reference" "C123"
+			(at 178.562 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 178.562 37.592 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
+			(at 176.53 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2785,18 +4149,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 160.02 97.917 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 93.98 0)
+		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
+			(at 176.53 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2806,8 +4160,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 160.02 93.98 0)
+		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
+			(at 176.53 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2817,8 +4171,41 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 160.02 93.98 0)
+		(property "part_uid" "RP-01BJ9Y-KRGF41"
+			(at 176.53 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer" "Murata"
+			(at 176.53 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer_pn" "GRM155R71E104KE14D"
+			(at 176.53 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "capacitance" "100n"
+			(at 176.53 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2829,12 +4216,140 @@
 			)
 		)
 		(pin "1"
-			(uuid "879a9a6c-54eb-4bcb-b269-57c815e7e360")
+			(uuid "862949a4-e077-42df-b805-e9a551506ecd")
+		)
+		(pin "2"
+			(uuid "1a5eaa2c-f696-4a19-91b1-d443adc6fa07")
 		)
 		(instances
 			(project "universal-strip-controller"
 				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
-					(reference "#PWR061")
+					(reference "C123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
+		(at 194.31 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "508cb42d-ad19-468c-9a97-e0a60597d043")
+		(property "Reference" "C124"
+			(at 196.342 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 196.342 37.592 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
+			(at 194.31 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
+			(at 194.31 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
+			(at 194.31 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part_uid" "RP-01BJ9Y-KRGF41"
+			(at 194.31 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer" "Murata"
+			(at 194.31 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer_pn" "GRM155R71E104KE14D"
+			(at 194.31 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "capacitance" "100n"
+			(at 194.31 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7dd47cdb-8c57-4569-afac-b518798e6f3b")
+		)
+		(pin "2"
+			(uuid "f6ed6772-0abe-49ce-a672-8258d6c87ced")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
+					(reference "C124")
 					(unit 1)
 				)
 			)
@@ -3019,8 +4534,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 204.47 76.2 0)
+		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
+		(at 101.6 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3028,29 +4543,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6602b10a-7a30-43a3-9417-0837cf828bc6")
-		(property "Reference" "D23"
-			(at 212.344 81.788 0)
+		(uuid "6ba71f02-154e-47eb-98a3-b496d9552cf4")
+		(property "Reference" "C119"
+			(at 103.632 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 212.344 84.328 0)
+		(property "Value" "100n"
+			(at 103.632 37.592 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 205.74 83.82 0)
+		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
+			(at 101.6 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3058,11 +4575,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 207.01 85.725 0)
+		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
+			(at 101.6 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3070,11 +4586,54 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 204.47 76.2 0)
+		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
+			(at 101.6 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part_uid" "RP-01BJ9Y-KRGF41"
+			(at 101.6 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer" "Murata"
+			(at 101.6 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer_pn" "GRM155R71E104KE14D"
+			(at 101.6 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "capacitance" "100n"
+			(at 101.6 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3085,21 +4644,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d6fdb95f-c8d0-4d89-9dac-9b3bb76f0d64")
+			(uuid "1b3dd554-d8a2-48ed-a04c-08aecc6cc162")
 		)
 		(pin "2"
-			(uuid "3f752baa-61de-49f0-b36e-9abb43652614")
-		)
-		(pin "3"
-			(uuid "074e44b4-dc2e-4643-803d-75fbb667e8d7")
-		)
-		(pin "4"
-			(uuid "b73d5b1b-c81f-4dbb-ac21-862c495b96c1")
+			(uuid "7325b5fa-6a90-469b-8b60-1866b4d4e729")
 		)
 		(instances
 			(project "universal-strip-controller"
 				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
-					(reference "D23")
+					(reference "C119")
 					(unit 1)
 				)
 			)
@@ -3187,6 +4740,256 @@
 			(project "universal-strip-controller"
 				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
+		(at 176.53 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "75749d31-44aa-4fb8-9a70-d5329cf61679")
+		(property "Reference" "C130"
+			(at 178.562 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 178.562 76.962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
+			(at 176.53 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
+			(at 176.53 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
+			(at 176.53 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part_uid" "RP-01BJ9Y-KRGF41"
+			(at 176.53 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer" "Murata"
+			(at 176.53 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer_pn" "GRM155R71E104KE14D"
+			(at 176.53 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "capacitance" "100n"
+			(at 176.53 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0abf09f1-54f7-4817-bd83-8fc229fc3dee")
+		)
+		(pin "2"
+			(uuid "eb07f4bb-06e5-4d3f-a537-d06cc3e74044")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
+					(reference "C130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
+		(at 119.38 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7b1b2dee-a4b6-4b78-b02b-583d47a6ffe0")
+		(property "Reference" "C120"
+			(at 121.412 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 121.412 37.592 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
+			(at 119.38 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
+			(at 119.38 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
+			(at 119.38 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part_uid" "RP-01BJ9Y-KRGF41"
+			(at 119.38 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer" "Murata"
+			(at 119.38 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer_pn" "GRM155R71E104KE14D"
+			(at 119.38 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "capacitance" "100n"
+			(at 119.38 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3710a96-7e65-4a1a-838f-bfbcc945fba2")
+		)
+		(pin "2"
+			(uuid "6802df3b-d17e-40a8-9350-b010b252096a")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
+					(reference "C120")
 					(unit 1)
 				)
 			)
@@ -3367,6 +5170,93 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 185.42 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "833561d5-e408-46f0-be1a-618f80edfd21")
+		(property "Reference" "D22"
+			(at 193.294 93.218 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 193.294 95.758 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(at 186.69 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 187.96 97.155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 185.42 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38bcee5a-c264-4e10-8392-596e6620f2c6")
+		)
+		(pin "2"
+			(uuid "f406ae7f-3d90-4cd4-98e5-bbf2191eb62b")
+		)
+		(pin "3"
+			(uuid "e25ff67b-2719-4bec-b409-5aba04cdb24a")
+		)
+		(pin "4"
+			(uuid "cfc19b5a-3883-4977-8372-d0f33e1b6c03")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RPI - Power:PWR_NET")
 		(at 35.56 55.88 0)
 		(mirror y)
@@ -3445,8 +5335,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 167.64 76.2 0)
+		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
+		(at 138.43 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3454,29 +5344,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8e1dc4c9-6eed-4705-b6e4-d5d2c22935ce")
-		(property "Reference" "D21"
-			(at 175.514 81.788 0)
+		(uuid "8ea4e595-2545-41b6-a421-4f7f41736dbc")
+		(property "Reference" "C121"
+			(at 140.462 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 175.514 84.328 0)
+		(property "Value" "100n"
+			(at 140.462 37.592 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 168.91 83.82 0)
+		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
+			(at 138.43 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3484,11 +5376,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 170.18 85.725 0)
+		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
+			(at 138.43 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3496,11 +5387,54 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 167.64 76.2 0)
+		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
+			(at 138.43 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part_uid" "RP-01BJ9Y-KRGF41"
+			(at 138.43 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer" "Murata"
+			(at 138.43 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer_pn" "GRM155R71E104KE14D"
+			(at 138.43 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "capacitance" "100n"
+			(at 138.43 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3511,21 +5445,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "cd4b9cd8-e3a7-4319-babf-3e3111f8afe2")
+			(uuid "9250a3af-f2a8-4d07-9172-ad30901ffeac")
 		)
 		(pin "2"
-			(uuid "3fd2b1ba-c776-4e42-bd0b-23685d5ff89f")
-		)
-		(pin "3"
-			(uuid "0811cf05-e862-4935-aa92-748240d5bb29")
-		)
-		(pin "4"
-			(uuid "64047a56-5937-40ae-aa61-903b367bec3b")
+			(uuid "c93f6bab-4485-41f5-afbc-0b41a1655210")
 		)
 		(instances
 			(project "universal-strip-controller"
 				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
-					(reference "D21")
+					(reference "C121")
 					(unit 1)
 				)
 			)
@@ -3533,7 +5461,7 @@
 	)
 	(symbol
 		(lib_id "PixelBlit:0402,47Ω")
-		(at 80.01 48.26 90)
+		(at 73.66 48.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3543,7 +5471,7 @@
 		(dnp no)
 		(uuid "97526211-30f0-478f-9087-3afa459e269d")
 		(property "Reference" "R19"
-			(at 80.01 44.45 90)
+			(at 73.66 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3553,7 +5481,7 @@
 			)
 		)
 		(property "Value" "47Ω"
-			(at 80.01 48.26 90)
+			(at 73.66 48.26 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -3563,7 +5491,7 @@
 			)
 		)
 		(property "Footprint" "PixelBlit:R_0402"
-			(at 80.01 50.038 90)
+			(at 73.66 50.038 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3574,7 +5502,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF470JTCE_C25118.pdf"
-			(at 80.01 48.26 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3585,7 +5513,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/°C 47Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 80.01 48.26 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3596,7 +5524,7 @@
 			)
 		)
 		(property "LCSC" "C25118"
-			(at 80.01 48.26 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3607,7 +5535,7 @@
 			)
 		)
 		(property "Stock" "468126"
-			(at 80.01 48.26 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3618,7 +5546,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 80.01 48.26 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3629,7 +5557,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 80.01 48.26 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3640,7 +5568,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 80.01 48.26 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3651,7 +5579,7 @@
 			)
 		)
 		(property "Attrition Qty" "12"
-			(at 80.01 48.26 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3662,7 +5590,7 @@
 			)
 		)
 		(property "Class" "Preferred Component"
-			(at 80.01 48.26 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3673,7 +5601,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 80.01 48.26 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3684,7 +5612,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 80.01 48.26 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3695,7 +5623,7 @@
 			)
 		)
 		(property "Part" "0402WGF470JTCE"
-			(at 80.01 48.26 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3706,7 +5634,7 @@
 			)
 		)
 		(property "Resistance" "47Ω"
-			(at 80.01 48.26 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3717,7 +5645,7 @@
 			)
 		)
 		(property "Power(Watts)" "62.5mW"
-			(at 80.01 48.26 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3728,7 +5656,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 80.01 48.26 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3739,7 +5667,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "50V"
-			(at 80.01 48.26 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3750,7 +5678,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 80.01 48.26 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3761,7 +5689,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 80.01 48.26 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3772,7 +5700,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±200ppm/°C"
-			(at 80.01 48.26 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3792,93 +5720,6 @@
 			(project "universal-strip-controller"
 				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 148.59 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9c55f261-f4dd-4017-b316-d1e6e8353a6b")
-		(property "Reference" "D20"
-			(at 156.464 81.788 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI"
-			(at 156.464 84.328 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 149.86 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 151.13 85.725 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 148.59 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "92a4e40a-397e-4bf5-9406-805d4b0d6e27")
-		)
-		(pin "2"
-			(uuid "2ceede55-b48c-43a3-978e-199cbc6b00a9")
-		)
-		(pin "3"
-			(uuid "6ea4f844-3a98-4551-accf-a89f6a85b089")
-		)
-		(pin "4"
-			(uuid "9286230b-8c43-400c-8ccc-fa6fe3df05e6")
-		)
-		(instances
-			(project "universal-strip-controller"
-				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
-					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -3956,6 +5797,343 @@
 			(project "universal-strip-controller"
 				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
+		(at 119.38 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a39c560b-9e65-472c-ab78-e25fa1b67cf1")
+		(property "Reference" "C127"
+			(at 121.412 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 121.412 76.962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
+			(at 119.38 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
+			(at 119.38 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
+			(at 119.38 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part_uid" "RP-01BJ9Y-KRGF41"
+			(at 119.38 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer" "Murata"
+			(at 119.38 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer_pn" "GRM155R71E104KE14D"
+			(at 119.38 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "capacitance" "100n"
+			(at 119.38 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af440ce7-5f8c-44c5-8ca2-1e4711339c02")
+		)
+		(pin "2"
+			(uuid "a460989f-8179-4ea7-a77e-56c9ab09323c")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
+					(reference "C127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 91.44 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a45cac5b-7e83-4b3e-b670-1e71d63f38df")
+		(property "Reference" "D17"
+			(at 99.314 93.218 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 99.314 95.758 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(at 92.71 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 93.98 97.155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 91.44 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b90b9027-c40f-4410-87f7-d7d5ba76b89e")
+		)
+		(pin "2"
+			(uuid "dce67483-9635-497a-9920-6fde61d92c1e")
+		)
+		(pin "3"
+			(uuid "d42143ed-4c87-4fd0-88c9-b43478e62bce")
+		)
+		(pin "4"
+			(uuid "65e0074f-e0fc-4524-b24d-6cee901c7b91")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
+		(at 213.36 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b20cb9c7-d114-4459-b9ae-af52d6f5dc52")
+		(property "Reference" "C132"
+			(at 215.392 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 215.392 76.962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
+			(at 213.36 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
+			(at 213.36 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
+			(at 213.36 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part_uid" "RP-01BJ9Y-KRGF41"
+			(at 213.36 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer" "Murata"
+			(at 213.36 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer_pn" "GRM155R71E104KE14D"
+			(at 213.36 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "capacitance" "100n"
+			(at 213.36 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d81c4480-9fa8-4e3d-afc2-bdb26bb924db")
+		)
+		(pin "2"
+			(uuid "80289f94-bd53-4176-98e3-01fa23c967bb")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
+					(reference "C132")
 					(unit 1)
 				)
 			)
@@ -4050,7 +6228,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812MINI")
-		(at 91.44 76.2 0)
+		(at 167.64 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4058,9 +6236,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d34a14ff-3603-4566-bfac-030151947033")
-		(property "Reference" "D17"
-			(at 99.314 81.788 0)
+		(uuid "bd2cdb74-a196-44ce-9365-ed831f74117b")
+		(property "Reference" "D21"
+			(at 175.514 93.218 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4070,7 +6248,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 99.314 84.328 0)
+			(at 175.514 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4080,7 +6258,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 92.71 83.82 0)
+			(at 168.91 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4092,7 +6270,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 93.98 85.725 0)
+			(at 170.18 97.155 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4104,7 +6282,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 91.44 76.2 0)
+			(at 167.64 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4115,21 +6293,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "804a0a90-f07c-4d17-af98-56340ebc5149")
+			(uuid "f5df6f15-018f-4269-a1e2-506c79a47986")
 		)
 		(pin "2"
-			(uuid "a5a01aba-4d80-420c-a7a6-c5f1f7d96bce")
+			(uuid "c26622d4-8c69-42e5-b358-b8d982b34478")
 		)
 		(pin "3"
-			(uuid "3b910844-9167-48d4-919f-e7fb0ea7278c")
+			(uuid "2d993931-69aa-4bd1-9c4f-7af7e4986cb0")
 		)
 		(pin "4"
-			(uuid "41aeb661-757b-4792-a348-5bd426acf95a")
+			(uuid "722333c5-054b-4da1-b55b-2f1e26ca9303")
 		)
 		(instances
 			(project "universal-strip-controller"
 				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
-					(reference "D17")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -4137,7 +6315,7 @@
 	)
 	(symbol
 		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
-		(at 64.77 40.64 0)
+		(at 157.48 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4145,9 +6323,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "da5acd83-c1f2-418d-9d51-0b0a1fd1c772")
-		(property "Reference" "C22"
-			(at 66.802 35.56 0)
+		(uuid "d3ba3215-23fc-4539-8272-ce5fd3507439")
+		(property "Reference" "C129"
+			(at 159.512 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4158,7 +6336,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 66.802 37.592 0)
+			(at 159.512 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4169,7 +6347,7 @@
 			)
 		)
 		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
-			(at 64.77 40.64 0)
+			(at 157.48 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4180,7 +6358,7 @@
 			)
 		)
 		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
-			(at 64.77 40.64 0)
+			(at 157.48 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4191,7 +6369,7 @@
 			)
 		)
 		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
-			(at 64.77 40.64 0)
+			(at 157.48 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4201,52 +6379,8 @@
 				)
 			)
 		)
-		(property "package" "M1005"
-			(at 66.802 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "voltage" "25V"
-			(at 66.802 41.656 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "dielectric" "X7R"
-			(at 66.802 43.688 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "tolerance" "10%"
-			(at 66.802 39.624 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(property "part_uid" "RP-01BJ9Y-KRGF41"
-			(at 64.77 40.64 0)
+			(at 157.48 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4257,7 +6391,7 @@
 			)
 		)
 		(property "manufacturer" "Murata"
-			(at 64.77 40.64 0)
+			(at 157.48 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4268,84 +6402,7 @@
 			)
 		)
 		(property "manufacturer_pn" "GRM155R71E104KE14D"
-			(at 64.77 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "packaging" "180mm paper taping"
-			(at 64.77 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "packaging_qty" "10000"
-			(at 64.77 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "temp_coefficient" "X7R"
-			(at 64.77 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "operating_temp_max" "+125C"
-			(at 64.77 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "operating_temp_min" "-55C"
-			(at 64.77 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "material" "Ceramic"
-			(at 64.77 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "size" "1.0x0.5x0.5mm"
-			(at 64.77 40.64 0)
+			(at 157.48 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4356,18 +6413,7 @@
 			)
 		)
 		(property "capacitance" "100n"
-			(at 64.77 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "z_height_nom" "0.5mm"
-			(at 64.77 40.64 0)
+			(at 157.48 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4378,15 +6424,102 @@
 			)
 		)
 		(pin "1"
-			(uuid "74021c20-522c-40ac-9fdf-14fc465da96e")
+			(uuid "d8ed8af2-2b8e-4027-93d0-12ebdf619951")
 		)
 		(pin "2"
-			(uuid "a1d1d0cd-247c-47e5-ada9-bc30716eae62")
+			(uuid "dfcfa89b-4088-4bcb-a353-7744c47d1bfd")
 		)
 		(instances
 			(project "universal-strip-controller"
 				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
-					(reference "C22")
+					(reference "C129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 223.52 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d72b1006-6947-4949-953f-6aa14ac4a58d")
+		(property "Reference" "D24"
+			(at 231.394 93.218 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 231.394 95.758 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(at 224.79 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 226.06 97.155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 223.52 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e00eaaa6-d119-4d69-a0a3-2567e1a09d98")
+		)
+		(pin "2"
+			(uuid "a0d61c7c-1a61-47a4-a12c-bfc3001f7598")
+		)
+		(pin "3"
+			(uuid "1425675e-1ecc-4b2f-aff3-f1c508ca1534")
+		)
+		(pin "4"
+			(uuid "786ce08c-7230-41ee-9910-19c6c7bbb67e")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -4480,8 +6613,8 @@
 		)
 	)
 	(symbol
-		(lib_id "RPI - Power:PWR_NET")
-		(at 91.44 40.64 0)
+		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
+		(at 213.36 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4489,9 +6622,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "dc7d97e1-ff7e-4fa4-baf1-aa16f11db4e9")
-		(property "Reference" "#PWR045"
-			(at 91.44 44.45 0)
+		(uuid "de3a94d0-50e7-4189-976a-9c9ca9e6fc3e")
+		(property "Reference" "C125"
+			(at 215.392 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 215.392 37.592 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
+			(at 213.36 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4501,18 +6656,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 91.44 36.83 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 40.64 0)
+		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
+			(at 213.36 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4522,8 +6667,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 91.44 40.64 0)
+		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
+			(at 213.36 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4533,8 +6678,41 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 91.44 40.64 0)
+		(property "part_uid" "RP-01BJ9Y-KRGF41"
+			(at 213.36 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer" "Murata"
+			(at 213.36 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer_pn" "GRM155R71E104KE14D"
+			(at 213.36 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "capacitance" "100n"
+			(at 213.36 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4545,12 +6723,92 @@
 			)
 		)
 		(pin "1"
-			(uuid "8644d8cd-3275-4938-be67-4bca5d24d2c9")
+			(uuid "15123163-f9fa-4af2-9628-11e51155ce09")
+		)
+		(pin "2"
+			(uuid "31ce9f4c-5a7f-4191-8a1e-abd3ab6c08ca")
 		)
 		(instances
 			(project "universal-strip-controller"
 				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
-					(reference "#PWR045")
+					(reference "C125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RPI - Power:PWR_NET")
+		(at 152.4 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df890a1e-1623-469a-baf6-ca9d06f042ee")
+		(property "Reference" "#PWR061"
+			(at 152.4 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 152.4 64.77 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8d4dd7d-7db5-4a36-a151-481488d94142")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4634,8 +6892,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 185.42 76.2 0)
+		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
+		(at 101.6 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4643,29 +6901,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f2bdb27b-7b72-497e-9113-073da1483b96")
-		(property "Reference" "D22"
-			(at 193.294 81.788 0)
+		(uuid "e4baf8a3-80b4-4607-ac61-0315b098d801")
+		(property "Reference" "C126"
+			(at 103.632 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 193.294 84.328 0)
+		(property "Value" "100n"
+			(at 103.632 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 186.69 83.82 0)
+		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
+			(at 101.6 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4673,11 +6933,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 187.96 85.725 0)
+		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
+			(at 101.6 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4685,11 +6944,54 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 185.42 76.2 0)
+		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
+			(at 101.6 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part_uid" "RP-01BJ9Y-KRGF41"
+			(at 101.6 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer" "Murata"
+			(at 101.6 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer_pn" "GRM155R71E104KE14D"
+			(at 101.6 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "capacitance" "100n"
+			(at 101.6 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4700,21 +7002,342 @@
 			)
 		)
 		(pin "1"
-			(uuid "ef35cffe-5126-4f18-aedc-031de8f9fb13")
+			(uuid "a66aadac-e656-4803-9e9e-bc66ce4cedab")
 		)
 		(pin "2"
-			(uuid "e85c4896-b669-47d8-8be0-09b6bc474906")
-		)
-		(pin "3"
-			(uuid "d21d8de9-3662-4492-8b35-1d909e2b2aea")
-		)
-		(pin "4"
-			(uuid "6f3196e5-3e7d-436b-8f9d-0333074e062f")
+			(uuid "b8d98273-a52f-4056-a09d-6614ea10f7f0")
 		)
 		(instances
 			(project "universal-strip-controller"
 				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
-					(reference "D22")
+					(reference "C126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
+		(at 194.31 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ecf158ee-f906-44de-8d63-e4d05194bc28")
+		(property "Reference" "C131"
+			(at 196.342 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 196.342 76.962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
+			(at 194.31 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
+			(at 194.31 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
+			(at 194.31 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part_uid" "RP-01BJ9Y-KRGF41"
+			(at 194.31 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer" "Murata"
+			(at 194.31 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer_pn" "GRM155R71E104KE14D"
+			(at 194.31 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "capacitance" "100n"
+			(at 194.31 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8d92952-fb4c-4475-a6c2-c6c848ee74bb")
+		)
+		(pin "2"
+			(uuid "e96acf60-22ab-4438-8f47-e6a76f767018")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
+					(reference "C131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
+		(at 157.48 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f3033466-e3f7-43a8-9fbf-3dfd2af5a6cf")
+		(property "Reference" "C122"
+			(at 159.512 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 159.512 37.592 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
+			(at 157.48 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
+			(at 157.48 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
+			(at 157.48 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part_uid" "RP-01BJ9Y-KRGF41"
+			(at 157.48 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer" "Murata"
+			(at 157.48 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer_pn" "GRM155R71E104KE14D"
+			(at 157.48 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "capacitance" "100n"
+			(at 157.48 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5dc55c9-6333-4a87-ac20-29eca34255f1")
+		)
+		(pin "2"
+			(uuid "0a3c5312-e411-4664-9a82-4e5e3211ce16")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
+					(reference "C122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RPI - Power:PWR_NET")
+		(at 152.4 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fc98056f-b3c7-4229-8120-04c79b234817")
+		(property "Reference" "#PWR060"
+			(at 152.4 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 152.4 25.4 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26011f1f-b0c1-4646-b82c-dc348d59d68e")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
