@@ -13129,7 +13129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PixelBlit:R_0402"
+		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSK2512_6332Metric_T1.19mm"
 			(at 117.602 232.41 90)
 			(hide yes)
 			(show_name no)
@@ -20727,7 +20727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PixelBlit:R_0402"
+		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSK2512_6332Metric_T1.19mm"
 			(at 308.102 232.41 90)
 			(hide yes)
 			(show_name no)
@@ -21326,7 +21326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PixelBlit:R_0402"
+		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSK2512_6332Metric_T1.19mm"
 			(at 21.082 232.41 90)
 			(hide yes)
 			(show_name no)
@@ -26457,7 +26457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PixelBlit:R_0402"
+		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSK2512_6332Metric_T1.19mm"
 			(at 215.392 232.41 90)
 			(hide yes)
 			(show_name no)
