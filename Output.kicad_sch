@@ -8374,7 +8374,7 @@
 				)
 			)
 		)
-		(property "Capacitance" "100nF"
+		(property "capacitance" "100nF"
 			(at 267.97 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -8778,7 +8778,7 @@
 				)
 			)
 		)
-		(property "Capacitance" "100nF"
+		(property "capacitance" "100nF"
 			(at 19.05 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -19422,7 +19422,7 @@
 				)
 			)
 		)
-		(property "Capacitance" "100nF"
+		(property "capacitance" "100nF"
 			(at 260.35 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -21304,7 +21304,7 @@
 				)
 			)
 		)
-		(property "Capacitance" "100nF"
+		(property "capacitance" "100nF"
 			(at 275.59 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -22325,7 +22325,7 @@
 				)
 			)
 		)
-		(property "Capacitance" "100nF"
+		(property "capacitance" "100nF"
 			(at 252.73 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -22561,7 +22561,7 @@
 				)
 			)
 		)
-		(property "Capacitance" "100nF"
+		(property "capacitance" "100nF"
 			(at 41.91 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -26497,7 +26497,7 @@
 				)
 			)
 		)
-		(property "Capacitance" "100nF"
+		(property "capacitance" "100nF"
 			(at 26.67 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -27901,7 +27901,7 @@
 				)
 			)
 		)
-		(property "Capacitance" "100nF"
+		(property "capacitance" "100nF"
 			(at 34.29 27.94 0)
 			(hide yes)
 			(show_name no)

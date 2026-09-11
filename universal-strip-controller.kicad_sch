@@ -16285,7 +16285,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "5%"
+		(property "Tolerance" "5%"
 			(at 36.576 270.002 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16307,7 +16307,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 35.56 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -17831,7 +17831,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "1%"
+		(property "Tolerance" "1%"
 			(at 54.61 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17864,7 +17864,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Yageo"
+		(property "Manufacturer" "Yageo"
 			(at 53.34 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -17941,7 +17941,7 @@
 				)
 			)
 		)
-		(property "resistance" "10k"
+		(property "Resistance" "10k"
 			(at 53.34 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -18110,7 +18110,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "1%"
+		(property "Tolerance" "1%"
 			(at 256.54 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18143,7 +18143,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Yageo"
+		(property "Manufacturer" "Yageo"
 			(at 255.27 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -18220,7 +18220,7 @@
 				)
 			)
 		)
-		(property "resistance" "33"
+		(property "Resistance" "33"
 			(at 255.27 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -18411,7 +18411,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "10%"
+		(property "Tolerance" "10%"
 			(at 271.272 148.844 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18433,7 +18433,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 269.24 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -18657,7 +18657,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Wurth Elektronik"
+		(property "Manufacturer" "Wurth Elektronik"
 			(at 106.68 267.0664 0)
 			(hide yes)
 			(show_name no)
@@ -19167,7 +19167,7 @@
 		(dnp no)
 		(uuid "312c2f36-6287-4f46-85f1-b8bde7a2c824")
 		(property "Reference" "R94"
-			(at 319.87 107.95 0)
+			(at 320.548 107.974 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19177,7 +19177,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 319.87 109.45 0)
+			(at 320.548 109.474 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19333,7 +19333,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "10%"
+		(property "Tolerance" "10%"
 			(at 130.302 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19355,7 +19355,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 128.27 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -19647,7 +19647,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Winbond"
+		(property "Manufacturer" "Winbond"
 			(at 66.04 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -20068,7 +20068,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "20%"
+		(property "Tolerance" "20%"
 			(at 219.71 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20090,7 +20090,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 217.17 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -20325,7 +20325,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "10%"
+		(property "Tolerance" "10%"
 			(at 118.872 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20347,7 +20347,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 116.84 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -20640,7 +20640,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "1%"
+		(property "Tolerance" "1%"
 			(at 252.73 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20673,7 +20673,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Yageo"
+		(property "Manufacturer" "Yageo"
 			(at 252.73 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -20750,7 +20750,7 @@
 				)
 			)
 		)
-		(property "resistance" "27"
+		(property "Resistance" "27"
 			(at 252.73 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -21444,7 +21444,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "10%"
+		(property "Tolerance" "10%"
 			(at 272.542 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21466,7 +21466,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 270.51 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -21778,7 +21778,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "10%"
+		(property "Tolerance" "10%"
 			(at 238.252 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21800,7 +21800,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 236.22 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -22271,7 +22271,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "20%"
+		(property "Tolerance" "20%"
 			(at 231.14 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22293,7 +22293,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 228.6 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -22665,7 +22665,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "10%"
+		(property "Tolerance" "10%"
 			(at 261.112 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22687,7 +22687,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 259.08 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -23120,7 +23120,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "10%"
+		(property "Tolerance" "10%"
 			(at 249.682 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23142,7 +23142,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 247.65 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -23454,7 +23454,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "10%"
+		(property "Tolerance" "10%"
 			(at 203.962 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23476,7 +23476,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 201.93 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -23701,7 +23701,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Abracon"
+		(property "Manufacturer" "Abracon"
 			(at 208.28 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -23756,7 +23756,7 @@
 				)
 			)
 		)
-		(property "tolerance" "20%"
+		(property "Tolerance" "20%"
 			(at 208.28 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -24026,7 +24026,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "1%"
+		(property "Tolerance" "1%"
 			(at 63.5 269.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24059,7 +24059,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Yageo"
+		(property "Manufacturer" "Yageo"
 			(at 63.5 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -24136,7 +24136,7 @@
 				)
 			)
 		)
-		(property "resistance" "1k"
+		(property "Resistance" "1k"
 			(at 63.5 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -24305,7 +24305,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "+50mR"
+		(property "Tolerance" "+50mR"
 			(at 33.02 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24338,7 +24338,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Yageo"
+		(property "Manufacturer" "Yageo"
 			(at 33.02 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -24415,7 +24415,7 @@
 				)
 			)
 		)
-		(property "resistance" "0"
+		(property "Resistance" "0"
 			(at 33.02 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -24584,7 +24584,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "1%"
+		(property "Tolerance" "1%"
 			(at 24.13 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24617,7 +24617,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Yageo"
+		(property "Manufacturer" "Yageo"
 			(at 22.86 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -24694,7 +24694,7 @@
 				)
 			)
 		)
-		(property "resistance" "1k"
+		(property "Resistance" "1k"
 			(at 22.86 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -24861,7 +24861,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Abracon"
+		(property "Manufacturer" "Abracon"
 			(at 45.72 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -24927,7 +24927,7 @@
 				)
 			)
 		)
-		(property "tolerance" "30ppm"
+		(property "Tolerance" "30ppm"
 			(at 45.72 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -25147,7 +25147,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "5%"
+		(property "Tolerance" "5%"
 			(at 36.576 250.698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25169,7 +25169,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 35.56 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -26109,7 +26109,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "10%"
+		(property "Tolerance" "10%"
 			(at 181.102 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26131,7 +26131,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 179.07 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -26500,7 +26500,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Wurth Elektronik"
+		(property "Manufacturer" "Wurth Elektronik"
 			(at 22.86 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -26786,7 +26786,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "10%"
+		(property "Tolerance" "10%"
 			(at 226.822 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26808,7 +26808,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 224.79 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -27098,7 +27098,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "1%"
+		(property "Tolerance" "1%"
 			(at 252.73 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27131,7 +27131,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Yageo"
+		(property "Manufacturer" "Yageo"
 			(at 252.73 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -27208,7 +27208,7 @@
 				)
 			)
 		)
-		(property "resistance" "27"
+		(property "Resistance" "27"
 			(at 252.73 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -27375,7 +27375,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Raspberry Pi"
+		(property "Manufacturer" "Raspberry Pi"
 			(at 185.42 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -27836,7 +27836,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "10%"
+		(property "Tolerance" "10%"
 			(at 192.532 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27858,7 +27858,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 190.5 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -28480,7 +28480,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "10%"
+		(property "Tolerance" "10%"
 			(at 87.122 184.404 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28502,7 +28502,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 85.09 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -28738,7 +28738,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "20%"
+		(property "Tolerance" "20%"
 			(at 257.81 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28760,7 +28760,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 255.27 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -29363,7 +29363,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "1%"
+		(property "Tolerance" "1%"
 			(at 121.92 268.3364 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29396,7 +29396,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Yageo"
+		(property "Manufacturer" "Yageo"
 			(at 121.92 267.0664 0)
 			(hide yes)
 			(show_name no)
@@ -29473,7 +29473,7 @@
 				)
 			)
 		)
-		(property "resistance" "1k"
+		(property "Resistance" "1k"
 			(at 121.92 267.0664 0)
 			(hide yes)
 			(show_name no)
@@ -29742,7 +29742,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "10%"
+		(property "Tolerance" "10%"
 			(at 215.392 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29764,7 +29764,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 213.36 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -29999,7 +29999,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "10%"
+		(property "Tolerance" "10%"
 			(at 141.732 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30021,7 +30021,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 139.7 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -30169,7 +30169,7 @@
 		(dnp no)
 		(uuid "facc743c-91bd-47ca-aea3-3508c6c86253")
 		(property "Reference" "R95"
-			(at 330.03 107.95 0)
+			(at 330.708 107.974 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30179,7 +30179,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 330.03 109.45 0)
+			(at 330.708 109.474 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30468,7 +30468,7 @@
 				(justify left)
 			)
 		)
-		(property "tolerance" "+50mR"
+		(property "Tolerance" "+50mR"
 			(at 33.02 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30501,7 +30501,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Yageo"
+		(property "Manufacturer" "Yageo"
 			(at 33.02 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -30578,7 +30578,7 @@
 				)
 			)
 		)
-		(property "resistance" "0"
+		(property "Resistance" "0"
 			(at 33.02 180.34 0)
 			(hide yes)
 			(show_name no)

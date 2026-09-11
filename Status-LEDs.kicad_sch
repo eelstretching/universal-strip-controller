@@ -3728,7 +3728,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 138.43 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4182,7 +4182,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 176.53 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4307,7 +4307,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 194.31 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4610,7 +4610,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 101.6 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4822,7 +4822,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 176.53 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4947,7 +4947,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 119.38 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5411,7 +5411,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 138.43 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5879,7 +5879,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 119.38 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6091,7 +6091,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 213.36 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6390,7 +6390,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 157.48 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6689,7 +6689,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 213.36 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6968,7 +6968,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 101.6 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7093,7 +7093,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 194.31 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7218,7 +7218,7 @@
 				)
 			)
 		)
-		(property "manufacturer" "Murata"
+		(property "Manufacturer" "Murata"
 			(at 157.48 40.64 0)
 			(hide yes)
 			(show_name no)
