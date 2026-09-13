@@ -7,3 +7,6 @@
 
 # Firmware build output
 firmware/build/
+
+# Personal editor config -- machine-specific SDK paths, WiFi credentials, etc.
+.vscode/
