@@ -26,12 +26,21 @@
 // different one, or open a second ina226_t handle for each.
 #define CHANNEL_1_ADDR 0x40u
 
-// Each channel's shunt is a 2 mΩ Vishay WSK2512 (Power.kicad_sch). Adjust
-// max_expected_amps to whatever this channel's fuse/load is actually rated
-// for -- it sets the chip's current resolution, so a wildly wrong value
-// either clips real readings or throws away precision.
-#define CHANNEL_1_SHUNT_OHMS 0.002f
-#define CHANNEL_1_MAX_AMPS 10.0f
+// The real board's shunt is a 2 mOhm Vishay WSK2512 (Power.kicad_sch), but
+// that's a expensive, special-order part -- for breadboard testing with a
+// generic INA226 breakout, 0.01 ohm is a far easier find. This value MUST
+// match whatever resistor is actually soldered on, or every reading here
+// will be systematically wrong by the ratio of assumed-to-actual shunt
+// value. Change back to 0.002f once this runs on the real board.
+#define CHANNEL_1_SHUNT_OHMS 0.01f
+
+// The INA226's shunt-voltage ADC saturates at +-81.92 mV regardless of
+// shunt value, which puts a hard ceiling on measurable current for a given
+// shunt: ~41 A at 2 mOhm, but only ~8.2 A at 0.01 ohm. max_expected_amps
+// just needs to be at or under that ceiling (it sets the chip's current
+// resolution -- a wildly wrong value either clips real readings or throws
+// away precision); 5 A leaves comfortable margin for bench testing.
+#define CHANNEL_1_MAX_AMPS 5.0f
 
 int main(void) {
     stdio_init_all();
