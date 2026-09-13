@@ -4,3 +4,6 @@
 
 # Ad-hoc backup copies (git history is the real safety net now)
 *.bak-*
+
+# Firmware build output
+firmware/build/
