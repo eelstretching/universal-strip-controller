@@ -11,6 +11,17 @@ cmake_minimum_required(VERSION 3.13)
 set(PICO_BOARD_HEADER_DIRS ${CMAKE_CURRENT_LIST_DIR}/boards)
 set(PICO_BOARD universal_strip_controller CACHE STRING "Board type")
 
+# PICO_BOARD_HEADER_DIRS only tells CMake where to look up the *selected*
+# board file by name -- it does NOT add that directory to the compiler's
+# include search path. A board header that does #include "boards/other.h"
+# (the officially-supported way to compose board headers, e.g. how
+# pico2_w.h can be included by others) needs that to actually resolve at
+# compile time. The SDK's own boards get away with this only because
+# ${PICO_SDK_PATH}/src/boards/include is unconditionally on every target's
+# include path; ours never was, so waveshare_core2350b_prototype.h's
+# #include "boards/waveshare_core2350b.h" would 404 without this.
+include_directories(${CMAKE_CURRENT_LIST_DIR})
+
 # WiFi credentials for the wifi_rtc_sync example, e.g.:
 #   cmake .. -DWIFI_SSID=... -DWIFI_PASSWORD=...
 set(WIFI_SSID "" CACHE STRING "WiFi SSID for wifi_rtc_sync")
