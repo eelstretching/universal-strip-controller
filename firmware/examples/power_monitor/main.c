@@ -7,16 +7,25 @@
 
 #include "ina226.h"
 
-// TODO: confirm against Power.kicad_sch -- same MCU_SDA/MCU_SCL bus as the
-// RTC. Update to match this board's actual I2C peripheral/GPIOs.
-#define POWER_I2C_PORT i2c0
-#define POWER_SDA_PIN 4
-#define POWER_SCL_PIN 5
+// Confirmed by tracing Power.kicad_sch: all four INA226es share the same
+// MCU_SDA/MCU_SCL bus as the RTC, on the RP2350B's GPIO39/GPIO38.
+//
+// IMPORTANT: as in the rtc_time example, these are the hardware-correct
+// I2C1 SDA/SCL roles (GPIO38=SDA, GPIO39=SCL per the RP2350 datasheet),
+// which is the opposite of what the schematic's net names suggest -- see
+// firmware/README.md.
+#define POWER_I2C_PORT i2c1
+#define POWER_SDA_PIN 38
+#define POWER_SCL_PIN 39
 #define POWER_I2C_BAUDRATE (100 * 1000)
 
-// Default INA226 address with A1/A0 both strapped low. This board has one
-// INA226 per channel at different addresses (see the A0/A1 strapping in
-// Power.kicad_sch) -- pick the right one for the channel you're reading.
+// Default INA226 address with A1/A0 both strapped low (A0/A1 float to GND
+// when left unconnected). NOTE: as of this writing, Power.kicad_sch doesn't
+// actually strap A0/A1 differently per channel -- all four INA226s would
+// sit at this same default address, which won't work once more than one is
+// on the bus at once. Fine for wiring up a single breakout on a breadboard;
+// worth fixing (give each channel a distinct address) before there are four
+// real channels on one bus.
 #define CHANNEL_1_ADDR 0x40u
 
 // Each channel's shunt is a 2 mΩ Vishay WSK2512 (Power.kicad_sch). Adjust

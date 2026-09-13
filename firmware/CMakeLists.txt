@@ -1,13 +1,20 @@
 cmake_minimum_required(VERSION 3.13)
 
-# This board is a custom RP2350B design (see ../universal-strip-controller.kicad_sch),
-# not an off-the-shelf Pico/Pico2 module. "pico2" is a placeholder board
-# definition: it gets the platform and toolchain defaults right, but should
-# be replaced with a proper custom pico-sdk board header (flash size, VREG
-# setup, default pin muxing) once this board's bring-up specifics are
-# pinned down.
-set(PICO_BOARD pico2 CACHE STRING "Board type")
-set(PICO_PLATFORM rp2350 CACHE STRING "Target platform")
+# This board is a custom RP2350B design (see ../universal-strip-controller.kicad_sch
+# and ../Power.kicad_sch) -- not an off-the-shelf Pico/Pico2/Pico2 W module,
+# so it gets its own board header (boards/universal_strip_controller.h)
+# rather than reusing a stock one. Using the stock "pico2" board here would
+# be actively wrong, not just approximate: pico2.h sets PICO_RP2350A, which
+# caps the SDK at 30 GPIOs, and this board's I2C bus and RM2 wifi module
+# both live on GPIO37 and up (only present on the 48-GPIO RP2350B this
+# board actually has).
+set(PICO_BOARD_HEADER_DIRS ${CMAKE_CURRENT_LIST_DIR}/boards)
+set(PICO_BOARD universal_strip_controller CACHE STRING "Board type")
+
+# WiFi credentials for the wifi_rtc_sync example, e.g.:
+#   cmake .. -DWIFI_SSID=... -DWIFI_PASSWORD=...
+set(WIFI_SSID "" CACHE STRING "WiFi SSID for wifi_rtc_sync")
+set(WIFI_PASSWORD "" CACHE STRING "WiFi password for wifi_rtc_sync")
 
 include(pico_sdk_import.cmake)
 
@@ -33,3 +40,4 @@ add_subdirectory(drivers/ina226)
 
 add_subdirectory(examples/rtc_time)
 add_subdirectory(examples/power_monitor)
+add_subdirectory(examples/wifi_rtc_sync)

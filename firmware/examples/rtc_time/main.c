@@ -7,12 +7,18 @@
 
 #include "ds3231.h"
 
-// TODO: confirm against universal-strip-controller.kicad_sch -- the DS3231
-// sits on the MCU_SDA/MCU_SCL net. Update these to whichever I2C peripheral
-// and GPIOs that net is actually routed to on this board's RP2350B.
-#define RTC_I2C_PORT i2c0
-#define RTC_SDA_PIN 4
-#define RTC_SCL_PIN 5
+// Confirmed by tracing universal-strip-controller.kicad_sch: the DS3231's
+// MCU_SDA/MCU_SCL net lands on the RP2350B's GPIO39/GPIO38.
+//
+// IMPORTANT: the RP2350 datasheet fixes GPIO38 as I2C1 SDA and GPIO39 as
+// I2C1 SCL -- the opposite of what the schematic's net names suggest. The
+// pins below follow the hardware-correct roles (required for the hardware
+// I2C1 peripheral to work at all), not the schematic's net names. See
+// firmware/README.md for the full explanation; this looks like a genuine
+// swap worth fixing in the schematic before this board is fabricated.
+#define RTC_I2C_PORT i2c1
+#define RTC_SDA_PIN 38
+#define RTC_SCL_PIN 39
 #define RTC_I2C_BAUDRATE (100 * 1000)
 
 int main(void) {
@@ -21,8 +27,8 @@ int main(void) {
     i2c_init(RTC_I2C_PORT, RTC_I2C_BAUDRATE);
     gpio_set_function(RTC_SDA_PIN, GPIO_FUNC_I2C);
     gpio_set_function(RTC_SCL_PIN, GPIO_FUNC_I2C);
-    // The board already has pull-ups on this net (see the schematic's "RTC
-    // SDA/SCL pull-up" resistors); these just add a little extra margin.
+    // Most DS3231 breakout boards already have their own pull-ups; these
+    // just add a little extra margin.
     gpio_pull_up(RTC_SDA_PIN);
     gpio_pull_up(RTC_SCL_PIN);
 
