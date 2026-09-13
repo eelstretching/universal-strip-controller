@@ -1,5 +1,6 @@
 // Minimal demonstration of the ds3231 driver: "what time is it?"
 #include <stdio.h>
+#include <string.h>
 
 #include "hardware/i2c.h"
 #include "pico/stdlib.h"
@@ -14,6 +15,32 @@
 #define RTC_SDA_PIN 38
 #define RTC_SCL_PIN 39
 #define RTC_I2C_BAUDRATE (100 * 1000)
+
+// Seeds a datetime_t from this firmware's own build timestamp. Not a
+// substitute for a real time source (wifi_rtc_sync's NTP sync, once wifi is
+// wired up) -- it's only as accurate as "whenever this was compiled", and
+// __DATE__/__TIME__ are the build machine's local time, not UTC -- but it
+// turns a freshly-wired DS3231 from "reports garbage forever" into "starts
+// ticking from roughly now", which is enough to confirm the wiring and
+// coin-cell backup actually work before wifi is in the picture.
+static void seed_datetime_from_build(datetime_t *dt) {
+    static const char *month_names = "JanFebMarAprMayJunJulAugSepOctNovDec";
+    char month_str[4] = {0};
+    int day, year, hour, min, sec;
+    sscanf(__DATE__, "%3s %d %d", month_str, &day, &year);
+    sscanf(__TIME__, "%d:%d:%d", &hour, &min, &sec);
+
+    const char *match = strstr(month_names, month_str);
+    int month = match ? (int)((match - month_names) / 3) + 1 : 1;
+
+    dt->year = (int16_t)year;
+    dt->month = (int8_t)month;
+    dt->day = (int8_t)day;
+    dt->hour = (int8_t)hour;
+    dt->min = (int8_t)min;
+    dt->sec = (int8_t)sec;
+    dt->dotw = 0; // ds3231_get_datetime recomputes this from the date on read
+}
 
 int main(void) {
     stdio_init_all();
@@ -35,8 +62,15 @@ int main(void) {
     }
 
     if (ds3231_lost_power(&rtc)) {
-        printf("RTC lost power since it was last set -- time below is not trustworthy "
-               "until ds3231_set_datetime() is called\n");
+        printf("RTC lost power since it was last set -- seeding it from this "
+               "firmware's build time (%s %s) so it has something to tick "
+               "from; run wifi_rtc_sync once wifi is wired up for a real "
+               "time sync\n", __DATE__, __TIME__);
+        datetime_t seed;
+        seed_datetime_from_build(&seed);
+        if (!ds3231_set_datetime(&rtc, &seed)) {
+            printf("failed to seed RTC\n");
+        }
     }
 
     while (true) {
