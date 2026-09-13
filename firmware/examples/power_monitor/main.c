@@ -15,13 +15,15 @@
 #define POWER_SCL_PIN 39
 #define POWER_I2C_BAUDRATE (100 * 1000)
 
-// Default INA226 address with A1/A0 both strapped low (A0/A1 float to GND
-// when left unconnected). NOTE: as of this writing, Power.kicad_sch doesn't
-// actually strap A0/A1 differently per channel -- all four INA226s would
-// sit at this same default address, which won't work once more than one is
-// on the bus at once. Fine for wiring up a single breakout on a breadboard;
-// worth fixing (give each channel a distinct address) before there are four
-// real channels on one bus.
+// Per-channel addresses, confirmed against Power.kicad_sch's A0/A1 strapping
+// (each pin tied directly to GND or VS -- no resistors needed, per the
+// INA226 datasheet's address table):
+//   channel 1 (U12): A1=GND A0=GND -> 0x40
+//   channel 2 (U13): A1=GND A0=VS  -> 0x41
+//   channel 3 (U14): A1=VS  A0=GND -> 0x44
+//   channel 4 (U15): A1=VS  A0=VS  -> 0x45
+// This example only demonstrates one channel; swap the address to read a
+// different one, or open a second ina226_t handle for each.
 #define CHANNEL_1_ADDR 0x40u
 
 // Each channel's shunt is a 2 mΩ Vishay WSK2512 (Power.kicad_sch). Adjust

@@ -95,14 +95,17 @@ further, or the two will disagree about the SDA/SCL assignment.
   away from an already-correctly-wired pull-up/label network (the rest of
   that network was already in place), so each channel just needed that
   one missing wire added.
-- **Not fixed, still open:** the four INA226s' `A0`/`A1` address-strap
-  pins are all left floating, which means as drawn, all four sit at the
-  same default I2C address (`0x40`) -- a real collision once more than one
-  is on the bus at once. Unlike the two fixes above, there's no single
-  "obviously intended" connection to restore here -- it needs an actual
-  per-channel address assigned and wired (direct-tie A0/A1 to GND/VS/SDA/
-  SCL per the INA226 datasheet's address table, no resistors needed). Left
-  for a deliberate decision rather than guessed at.
+- **Fixed:** the four INA226s' `A0`/`A1` address pins weren't wired to
+  match the address scheme the schematic itself documents (text
+  annotations next to each chip: `0x40`/`0x41`/`0x44`/`0x45` via A1×A0 ∈
+  {GND, VS}). Channels 1 and 2 already had A1 correctly left floating
+  (`no_connect`, reads as GND) for their `A1: GND` requirement; channels 3
+  and 4 (U14, U15) had that same `no_connect` on A1 even though their
+  documented addresses need A1 tied to VS -- removed those and wired A1 to
+  each chip's own VS rail instead. Wired A0 the same way per channel
+  (direct tie to GND via `no_connect`, or to VS via a wire -- no resistors
+  needed, per the INA226 datasheet's address table). Verified all four
+  chips now resolve to their documented, distinct addresses.
 
 None of this blocks breadboard bring-up with generic breakout modules,
 since those are wired by hand rather than by the PCB traces.
