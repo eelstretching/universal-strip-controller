@@ -69,40 +69,43 @@ followed net-by-net to the RP2350B's pins), not assumed by convention:
 | RM2 wifi module data (bidirectional) | `RM2_DI_DO` | GPIO42 |
 | RM2 wifi module `WL_ON`/`BT_ON` | `RM2_BT_WL_ON` | GPIO43 |
 
-**Important: the schematic's `MCU_SDA`/`MCU_SCL` net names are swapped
-relative to the RP2350's fixed hardware I2C roles.** The RP2350 datasheet
-(confirmed directly from the SDK's own `io_bank0.h` register definitions)
-fixes GPIO38's I2C alternate function as **I2C1 SDA** and GPIO39's as
-**I2C1 SCL** -- silicon-fixed, not something firmware can reassign. But the
-schematic wires the net it calls `MCU_SDA` to GPIO39, and `MCU_SCL` to
-GPIO38 -- the opposite pairing. Every example here uses the
-hardware-correct roles (GPIO38=SDA, GPIO39=SCL) so the hardware I2C1
-peripheral actually works; if you wire a breadboard by the schematic's net
-*names* instead, I2C will not work. This looks like a genuine swap worth
-fixing in the schematic (or documenting clearly) before the PCB is
-fabricated -- right now, using the real hardware I2C1 peripheral and
-matching the schematic's own net names are mutually exclusive.
+The RP2350 datasheet (confirmed directly from the SDK's own `io_bank0.h`
+register definitions) fixes GPIO38's I2C alternate function as **I2C1
+SDA** and GPIO39's as **I2C1 SCL** -- silicon-fixed, not something firmware
+can reassign. The `MCU_SDA`/`MCU_SCL` net names above now match that
+(GPIO38=SDA, GPIO39=SCL): the schematic originally had them swapped
+(`MCU_SDA` wired to GPIO39, `MCU_SCL` to GPIO38), which has since been
+fixed directly in `universal-strip-controller.kicad_sch` by swapping the
+two global labels at the MCU end -- everything else on each net (pull-up
+resistors, the DS3231, all four INA226s) picked up the correct net
+automatically, since KiCad global labels connect by name project-wide
+regardless of physical wire path.
+
+**This fix is schematic-only -- the PCB layout has not been re-synced.**
+Run KiCad's "Update PCB from Schematic" before laying out `.kicad_pcb`
+further, or the two will disagree about the SDA/SCL assignment.
 
 ## Other things found while tracing the schematic
 
-Worth knowing about, though none of them block breadboard bring-up with
-generic breakout modules:
+- **Fixed:** the DS3231's own SDA/SCL pins weren't actually wired to the
+  MCU_SDA/MCU_SCL nets (SDA was floating; SCL had an explicit `no_connect`
+  flag). Both now have a direct stub to the corresponding global label.
+- **Fixed:** none of the four INA226s had their SCL pin wired to anything
+  -- only SDA was connected. Each one turned out to be one short stub wire
+  away from an already-correctly-wired pull-up/label network (the rest of
+  that network was already in place), so each channel just needed that
+  one missing wire added.
+- **Not fixed, still open:** the four INA226s' `A0`/`A1` address-strap
+  pins are all left floating, which means as drawn, all four sit at the
+  same default I2C address (`0x40`) -- a real collision once more than one
+  is on the bus at once. Unlike the two fixes above, there's no single
+  "obviously intended" connection to restore here -- it needs an actual
+  per-channel address assigned and wired (direct-tie A0/A1 to GND/VS/SDA/
+  SCL per the INA226 datasheet's address table, no resistors needed). Left
+  for a deliberate decision rather than guessed at.
 
-- **The DS3231's own SDA/SCL pins aren't actually wired to the MCU_SDA/
-  MCU_SCL nets in the current schematic.** SDA is floating (no wire at
-  all); SCL has an explicit `no_connect` flag on it. The nearby pull-up
-  resistors (R94/R95/R96) do land on the right global-label nets, but
-  nothing connects from there to the DS3231 chip itself.
-- **None of the four INA226s have their SCL pin wired to anything** --
-  only SDA is connected. Their `A0`/`A1` address-strap pins are also all
-  left floating, which means as drawn, all four would sit at the same
-  default I2C address (`0x40`) -- a real collision once more than one is on
-  the bus.
-
-These read as unfinished routing rather than deliberate choices, given how
-much of the rest of the design is complete. Worth a pass before this goes
-to fab; doesn't affect testing on a breadboard with off-the-shelf breakout
-boards, since those are wired by hand rather than by the PCB traces.
+None of this blocks breadboard bring-up with generic breakout modules,
+since those are wired by hand rather than by the PCB traces.
 
 ## `max_expected_amps` in the power monitor example
 

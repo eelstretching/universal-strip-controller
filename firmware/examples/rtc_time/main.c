@@ -8,14 +8,8 @@
 #include "ds3231.h"
 
 // Confirmed by tracing universal-strip-controller.kicad_sch: the DS3231's
-// MCU_SDA/MCU_SCL net lands on the RP2350B's GPIO39/GPIO38.
-//
-// IMPORTANT: the RP2350 datasheet fixes GPIO38 as I2C1 SDA and GPIO39 as
-// I2C1 SCL -- the opposite of what the schematic's net names suggest. The
-// pins below follow the hardware-correct roles (required for the hardware
-// I2C1 peripheral to work at all), not the schematic's net names. See
-// firmware/README.md for the full explanation; this looks like a genuine
-// swap worth fixing in the schematic before this board is fabricated.
+// MCU_SDA/MCU_SCL net lands on the RP2350B's GPIO38/GPIO39, matching the
+// RP2350's fixed I2C1 SDA/SCL pin roles.
 #define RTC_I2C_PORT i2c1
 #define RTC_SDA_PIN 38
 #define RTC_SCL_PIN 39

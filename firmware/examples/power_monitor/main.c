@@ -8,12 +8,8 @@
 #include "ina226.h"
 
 // Confirmed by tracing Power.kicad_sch: all four INA226es share the same
-// MCU_SDA/MCU_SCL bus as the RTC, on the RP2350B's GPIO39/GPIO38.
-//
-// IMPORTANT: as in the rtc_time example, these are the hardware-correct
-// I2C1 SDA/SCL roles (GPIO38=SDA, GPIO39=SCL per the RP2350 datasheet),
-// which is the opposite of what the schematic's net names suggest -- see
-// firmware/README.md.
+// MCU_SDA/MCU_SCL bus as the RTC, on the RP2350B's GPIO38/GPIO39, matching
+// the RP2350's fixed I2C1 SDA/SCL pin roles.
 #define POWER_I2C_PORT i2c1
 #define POWER_SDA_PIN 38
 #define POWER_SCL_PIN 39

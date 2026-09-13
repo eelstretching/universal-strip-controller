@@ -45,11 +45,8 @@ pico_board_cmake_set(PICO_CYW43_SUPPORTED, 1)
 // --- I2C ---
 // DS3231 RTC + four INA226 power monitors, confirmed by tracing
 // universal-strip-controller.kicad_sch/Power.kicad_sch: the MCU_SDA/MCU_SCL
-// nets land on GPIO39/GPIO38. IMPORTANT: per the RP2350 datasheet those two
-// GPIOs' fixed I2C1 hardware roles are the other way around (GPIO38 is
-// I2C1 SDA-only, GPIO39 is I2C1 SCL-only) -- see firmware/README.md. These
-// defaults follow the hardware-correct roles, not the schematic's net
-// names, so that the hardware I2C1 peripheral actually works.
+// nets land on GPIO38/GPIO39, matching the RP2350's fixed I2C1 SDA/SCL pin
+// roles.
 #ifndef PICO_DEFAULT_I2C
 #define PICO_DEFAULT_I2C 1
 #endif
