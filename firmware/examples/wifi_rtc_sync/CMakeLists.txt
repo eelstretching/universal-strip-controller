@@ -1,4 +1,4 @@
-add_executable(wifi_rtc_sync main.c)
+add_executable(wifi_rtc_sync main.cpp)
 
 if(WIFI_SSID STREQUAL "" OR WIFI_PASSWORD STREQUAL "")
     message(WARNING "WIFI_SSID/WIFI_PASSWORD are not set -- pass them with "

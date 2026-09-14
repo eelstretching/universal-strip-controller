@@ -1,4 +1,4 @@
-add_executable(power_monitor_example main.c)
+add_executable(power_monitor_example main.cpp)
 
 target_link_libraries(power_monitor_example
     PRIVATE

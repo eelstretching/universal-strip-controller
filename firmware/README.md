@@ -1,8 +1,11 @@
 # Firmware
 
-Pico C SDK drivers and example firmware for this board's RP2350B: the
+Pico SDK drivers and example firmware for this board's RP2350B: the
 DS3231 real-time clock, the per-channel INA226 current/power monitors, and
 the RM2 wifi module used to keep the RTC synced over NTP.
+
+Drivers are C++ classes (this project targets C++17); the SDK glue
+underneath is still C, as pico-sdk itself is.
 
 Built and tested against pico-sdk 2.3.0.
 
@@ -17,15 +20,24 @@ every pin/flash value this firmware relies on, confirmed by tracing
 
 ## Drivers
 
-- `drivers/ds3231` -- task-level RTC API: get/set the date and time, check
+- `drivers/ds3231` -- a `Ds3231` class: get/set the date and time, check
   whether the RTC lost power (and so can't be trusted), read the onboard
-  temperature sensor. See `drivers/ds3231/include/ds3231.h`.
-- `drivers/ina226` -- task-level current/voltage/power API: "how many amps
-  is this channel drawing right now?" See `drivers/ina226/include/ina226.h`.
+  temperature sensor. See `drivers/ds3231/include/ds3231.hpp`.
+- `drivers/ina226` -- an `Ina226` class: "how many amps is this channel
+  drawing right now?" See `drivers/ina226/include/ina226.hpp`.
 
 Neither exposes register addresses or raw I2C transactions in its public
-API -- callers ask questions ("what time is it", "how many amps"), not poke
-registers.
+API -- callers ask questions (`rtc.getDatetime()`, `sensor.read()`), not
+poke registers. Fallible reads return `std::optional` rather than an
+out-param plus a bool, e.g.:
+
+```cpp
+Ds3231 rtc(i2c1);
+rtc.init();
+if (auto now = rtc.getDatetime()) {
+    // use *now
+}
+```
 
 ## Examples
 
