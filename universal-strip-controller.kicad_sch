@@ -10604,6 +10604,28 @@
 		)
 		(uuid "218474ed-6bf6-42b0-9da1-a017512c82fd")
 	)
+	(text "TX"
+		(exclude_from_sim no)
+		(at 230.0 267.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49bf8e86-8d98-4c21-ba2d-770996ab7532")
+	)
+	(text "RX"
+		(exclude_from_sim no)
+		(at 230.0 272.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b38e5e9b-1fe3-475a-9f69-559992cf281c")
+	)
 	(text "BOOTSEL Button"
 		(exclude_from_sim no)
 		(at 30.988 223.266 0)
