@@ -47,8 +47,6 @@ add_compile_definitions(PICO_INCLUDE_RTC_DATETIME=1)
 pico_sdk_init()
 
 add_subdirectory(drivers/ds3231)
-add_subdirectory(drivers/ina226)
 
 add_subdirectory(examples/rtc_time)
-add_subdirectory(examples/power_monitor)
 add_subdirectory(examples/wifi_rtc_sync)

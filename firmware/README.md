@@ -1,8 +1,7 @@
 # Firmware
 
 Pico SDK drivers and example firmware for this board's RP2350B: the
-DS3231 real-time clock, an INA226 current/power monitor driver, and
-the RM2 wifi module used to keep the RTC synced over NTP.
+DS3231 real-time clock and the RM2 wifi module used to keep the RTC synced over NTP.
 
 Drivers are C++ classes (this project targets C++17); the SDK glue
 underneath is still C, as pico-sdk itself is.
@@ -23,12 +22,10 @@ every pin/flash value this firmware relies on, confirmed against
 - `drivers/ds3231` -- a `Ds3231` class: get/set the date and time, check
   whether the RTC lost power (and so can't be trusted), read the onboard
   temperature sensor. See `drivers/ds3231/include/ds3231.hpp`.
-- `drivers/ina226` -- an `Ina226` class: "how many amps is this channel
-  drawing right now?" See `drivers/ina226/include/ina226.hpp`.
 
-Neither exposes register addresses or raw I2C transactions in its public
-API -- callers ask questions (`rtc.getDatetime()`, `sensor.read()`), not
-poke registers. Fallible reads return `std::optional` rather than an
+It doesn't expose register addresses or raw I2C transactions in its public
+API -- callers ask questions (`rtc.getDatetime()`), not poke
+registers. Fallible reads return `std::optional` rather than an
 out-param plus a bool, e.g.:
 
 ```cpp
@@ -42,8 +39,6 @@ if (auto now = rtc.getDatetime()) {
 ## Examples
 
 - `examples/rtc_time` -- reads the DS3231 once a second and prints it.
-- `examples/power_monitor` -- reads one INA226 twice a second and prints
-  amps/volts/watts.
 - `examples/wifi_rtc_sync` -- connects to WiFi, fetches the time over NTP
   (request/response handling adapted from pico-sdk's own
   `pico_w/wifi/ntp_client` example), writes it to the DS3231, then prints
@@ -63,8 +58,8 @@ cmake .. -DPICO_SDK_PATH=/path/to/pico-sdk -DWIFI_SSID=yourssid -DWIFI_PASSWORD=
 make -j4
 ```
 
-`WIFI_SSID`/`WIFI_PASSWORD` are only needed for `wifi_rtc_sync`; the other
-two examples build fine without them (with a warning).
+`WIFI_SSID`/`WIFI_PASSWORD` are only needed for `wifi_rtc_sync`; `rtc_time` builds
+fine without them (with a warning).
 
 ## Confirmed pins
 
@@ -84,16 +79,3 @@ Taken from KiCad's exported netlist of `universal-strip-controller.kicad_sch`
 The RP2350's I2C alternate functions are fixed by GPIO number (n mod 4:
 0 = I2C0 SDA, 1 = I2C0 SCL, 2 = I2C1 SDA, 3 = I2C1 SCL), so GPIO42/GPIO43
 are I2C1 SDA/SCL, matching the net names.
-
-## INA226 power monitors
-
-The per-zone INA226s have been removed from the board design. The
-`Ina226` driver and `power_monitor` example are still here but only
-apply to an external INA226 breakout on the I2C bus.
-
-## `max_expected_amps` in the power monitor example
-
-Set to whatever each channel's fuse/load is actually rated for -- it sets
-the chip's current resolution, so a wildly wrong value either clips real
-readings or throws away precision. The shunt value (2 mΩ, Vishay WSK2512)
-is already correct, taken directly from `Power.kicad_sch`.

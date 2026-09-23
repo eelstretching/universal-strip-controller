@@ -36,7 +36,7 @@
 // No RM2/CYW43439 module wired up to this breakout yet, so deliberately
 // NOT declaring PICO_CYW43_SUPPORTED here: wifi_rtc_sync just won't build
 // against this board target until there's real wifi hardware attached to
-// GPIO38-41 to match. rtc_time_example and power_monitor_example (the only
-// two that matter until then) don't need it.
+// GPIO38-41 to match. rtc_time_example (the only one that
+// matters until then) doesn't need it.
 
 #endif

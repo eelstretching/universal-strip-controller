@@ -19,7 +19,7 @@
 
 #include "ds3231.hpp"
 
-// Same confirmed, hardware-correct I2C1 pins as the rtc_time/power_monitor
+// Same confirmed, hardware-correct I2C1 pins as the rtc_time
 // examples -- see firmware/README.md.
 constexpr uint kRtcSdaPin = 42;
 constexpr uint kRtcSclPin = 43;
