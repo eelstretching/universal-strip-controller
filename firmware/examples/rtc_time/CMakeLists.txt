@@ -1,4 +1,4 @@
-add_executable(rtc_time_example main.c)
+add_executable(rtc_time_example main.cpp)
 
 target_link_libraries(rtc_time_example
     PRIVATE

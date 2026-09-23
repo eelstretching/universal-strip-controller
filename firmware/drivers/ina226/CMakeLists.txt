@@ -1,4 +1,4 @@
-add_library(usc_ina226 ina226.c)
+add_library(usc_ina226 ina226.cpp)
 
 target_include_directories(usc_ina226 PUBLIC include)
 target_compile_options(usc_ina226 PRIVATE -Wall -Wextra)
