@@ -6,7 +6,7 @@ cmake_minimum_required(VERSION 3.13)
 # rather than reusing a stock one. Using the stock "pico2" board here would
 # be actively wrong, not just approximate: pico2.h sets PICO_RP2350A, which
 # caps the SDK at 30 GPIOs, and this board's I2C bus and RM2 wifi module
-# both live on GPIO37 and up (only present on the 48-GPIO RP2350B this
+# both live on GPIO38 and up (only present on the 48-GPIO RP2350B this
 # board actually has).
 set(PICO_BOARD_HEADER_DIRS ${CMAKE_CURRENT_LIST_DIR}/boards)
 set(PICO_BOARD universal_strip_controller CACHE STRING "Board type")

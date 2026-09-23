@@ -8,11 +8,11 @@
 
 #include "ds3231.hpp"
 
-// Confirmed by tracing universal-strip-controller.kicad_sch: the DS3231's
-// MCU_SDA/MCU_SCL net lands on the RP2350B's GPIO38/GPIO39, matching the
+// Confirmed from the schematic's exported netlist: the DS3231's
+// MCU_SDA/MCU_SCL net lands on the RP2350B's GPIO42/GPIO43, matching the
 // RP2350's fixed I2C1 SDA/SCL pin roles.
-constexpr uint kRtcSdaPin = 38;
-constexpr uint kRtcSclPin = 39;
+constexpr uint kRtcSdaPin = 42;
+constexpr uint kRtcSclPin = 43;
 constexpr uint kRtcI2cBaudrate = 100 * 1000;
 
 // Seeds a datetime_t from this firmware's own build timestamp. Not a

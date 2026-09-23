@@ -7,8 +7,8 @@
 // rather than adapted from pico2.h/pico2_w.h. In particular it must NOT
 // define PICO_RP2350A: that macro (set by pico2.h/pico2_w.h, since Pico 2
 // and Pico 2 W both use the 30-GPIO RP2350A package) caps NUM_BANK0_GPIOS
-// at 30, which would silently break anything using this board's GPIO37+
-// (the DS3231/INA226 I2C bus and the RM2 wifi module both live above 30).
+// at 30, which would silently break anything using this board's GPIO38+
+// (the DS3231 I2C bus and the RM2 wifi module both live above 30).
 // Leaving it undefined keeps the SDK's own default of 0, i.e. the 48-GPIO
 // RP2350B package this board actually has.
 //
@@ -43,23 +43,23 @@ pico_board_cmake_set(PICO_CYW43_SUPPORTED, 1)
 #endif
 
 // --- I2C ---
-// DS3231 RTC + four INA226 power monitors, confirmed by tracing
-// universal-strip-controller.kicad_sch/Power.kicad_sch: the MCU_SDA/MCU_SCL
-// nets land on GPIO38/GPIO39, matching the RP2350's fixed I2C1 SDA/SCL pin
-// roles.
+// DS3231 RTC, confirmed from KiCad's exported netlist of
+// universal-strip-controller.kicad_sch: MCU_SDA is GPIO42 and MCU_SCL is
+// GPIO43, matching the RP2350's fixed I2C1 SDA/SCL pin roles (GPIO n mod 4:
+// 2 = I2C1 SDA, 3 = I2C1 SCL).
 #ifndef PICO_DEFAULT_I2C
 #define PICO_DEFAULT_I2C 1
 #endif
 #ifndef PICO_DEFAULT_I2C_SDA_PIN
-#define PICO_DEFAULT_I2C_SDA_PIN 38
+#define PICO_DEFAULT_I2C_SDA_PIN 42
 #endif
 #ifndef PICO_DEFAULT_I2C_SCL_PIN
-#define PICO_DEFAULT_I2C_SCL_PIN 39
+#define PICO_DEFAULT_I2C_SCL_PIN 43
 #endif
 
 // --- RM2 wireless module (CYW43439) ---
-// Confirmed by tracing universal-strip-controller.kicad_sch's RM2_SCLK/
-// RM2_CS/RM2_DI_DO/RM2_BT_WL_ON nets to the RP2350B. Same 4-signal
+// Confirmed from the exported netlist: RM2_BT_WL_ON = GPIO38, RM2_DI_DO =
+// GPIO39, RM2_CS = GPIO40, RM2_SCLK = GPIO41. Same 4-signal
 // interface as the official Pico 2 W (boards/pico2_w.h), just on different
 // GPIOs -- no separate host-wake/IRQ pin, matching Pico 2 W's use of the
 // shared data line for that.
@@ -68,27 +68,27 @@ pico_board_cmake_set(PICO_CYW43_SUPPORTED, 1)
 #endif
 
 #ifndef CYW43_DEFAULT_PIN_WL_REG_ON
-#define CYW43_DEFAULT_PIN_WL_REG_ON 43u
+#define CYW43_DEFAULT_PIN_WL_REG_ON 38u
 #endif
 
 #ifndef CYW43_DEFAULT_PIN_WL_DATA_OUT
-#define CYW43_DEFAULT_PIN_WL_DATA_OUT 42u
+#define CYW43_DEFAULT_PIN_WL_DATA_OUT 39u
 #endif
 
 #ifndef CYW43_DEFAULT_PIN_WL_DATA_IN
-#define CYW43_DEFAULT_PIN_WL_DATA_IN 42u
+#define CYW43_DEFAULT_PIN_WL_DATA_IN 39u
 #endif
 
 #ifndef CYW43_DEFAULT_PIN_WL_HOST_WAKE
-#define CYW43_DEFAULT_PIN_WL_HOST_WAKE 42u
+#define CYW43_DEFAULT_PIN_WL_HOST_WAKE 39u
 #endif
 
 #ifndef CYW43_DEFAULT_PIN_WL_CLOCK
-#define CYW43_DEFAULT_PIN_WL_CLOCK 40u
+#define CYW43_DEFAULT_PIN_WL_CLOCK 41u
 #endif
 
 #ifndef CYW43_DEFAULT_PIN_WL_CS
-#define CYW43_DEFAULT_PIN_WL_CS 41u
+#define CYW43_DEFAULT_PIN_WL_CS 40u
 #endif
 
 #endif

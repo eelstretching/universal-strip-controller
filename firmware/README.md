@@ -1,7 +1,7 @@
 # Firmware
 
 Pico SDK drivers and example firmware for this board's RP2350B: the
-DS3231 real-time clock, the per-channel INA226 current/power monitors, and
+DS3231 real-time clock, an INA226 current/power monitor driver, and
 the RM2 wifi module used to keep the RTC synced over NTP.
 
 Drivers are C++ classes (this project targets C++17); the SDK glue
@@ -14,8 +14,8 @@ Built and tested against pico-sdk 2.3.0.
 `boards/universal_strip_controller.h` is a from-scratch pico-sdk board
 header for this custom hardware (not adapted from `pico2.h`/`pico2_w.h` --
 see the comment at the top of the file for why that matters). It carries
-every pin/flash value this firmware relies on, confirmed by tracing
-`universal-strip-controller.kicad_sch` and `Power.kicad_sch` (see
+every pin/flash value this firmware relies on, confirmed against
+`universal-strip-controller.kicad_sch`'s netlist (see
 "Confirmed pins" below), so the examples don't hardcode them independently.
 
 ## Drivers
@@ -68,59 +68,28 @@ two examples build fine without them (with a warning).
 
 ## Confirmed pins
 
-Traced directly from the schematics (wires, junctions and global labels
-followed net-by-net to the RP2350B's pins), not assumed by convention:
+Taken from KiCad's exported netlist of `universal-strip-controller.kicad_sch`
+(not hand-traced -- an earlier hand trace got these wrong):
 
 | Signal | Net name in schematic | RP2350B pin |
 |---|---|---|
-| I2C1 SDA (DS3231 + all 4 INA226s) | `MCU_SDA` | GPIO38 |
-| I2C1 SCL (DS3231 + all 4 INA226s) | `MCU_SCL` | GPIO39 |
-| DS3231 `INT`/`SQW` | `RTC_INT` | GPIO37 |
-| RM2 wifi module SPI clock | `RM2_SCLK` | GPIO40 |
-| RM2 wifi module chip select | `RM2_CS` | GPIO41 |
-| RM2 wifi module data (bidirectional) | `RM2_DI_DO` | GPIO42 |
-| RM2 wifi module `WL_ON`/`BT_ON` | `RM2_BT_WL_ON` | GPIO43 |
+| I2C1 SDA (DS3231) | `MCU_SDA` | GPIO42 |
+| I2C1 SCL (DS3231) | `MCU_SCL` | GPIO43 |
+| DS3231 `INT`/`SQW` | `RTC_INT` | GPIO44 |
+| RM2 wifi module `WL_ON`/`BT_ON` | `RM2_BT_WL_ON` | GPIO38 |
+| RM2 wifi module data (bidirectional) | `RM2_DI_DO` | GPIO39 |
+| RM2 wifi module chip select | `RM2_CS` | GPIO40 |
+| RM2 wifi module SPI clock | `RM2_SCLK` | GPIO41 |
 
-The RP2350 datasheet (confirmed directly from the SDK's own `io_bank0.h`
-register definitions) fixes GPIO38's I2C alternate function as **I2C1
-SDA** and GPIO39's as **I2C1 SCL** -- silicon-fixed, not something firmware
-can reassign. The `MCU_SDA`/`MCU_SCL` net names above now match that
-(GPIO38=SDA, GPIO39=SCL): the schematic originally had them swapped
-(`MCU_SDA` wired to GPIO39, `MCU_SCL` to GPIO38), which has since been
-fixed directly in `universal-strip-controller.kicad_sch` by swapping the
-two global labels at the MCU end -- everything else on each net (pull-up
-resistors, the DS3231, all four INA226s) picked up the correct net
-automatically, since KiCad global labels connect by name project-wide
-regardless of physical wire path.
+The RP2350's I2C alternate functions are fixed by GPIO number (n mod 4:
+0 = I2C0 SDA, 1 = I2C0 SCL, 2 = I2C1 SDA, 3 = I2C1 SCL), so GPIO42/GPIO43
+are I2C1 SDA/SCL, matching the net names.
 
-**This fix is schematic-only -- the PCB layout has not been re-synced.**
-Run KiCad's "Update PCB from Schematic" before laying out `.kicad_pcb`
-further, or the two will disagree about the SDA/SCL assignment.
+## INA226 power monitors
 
-## Other things found while tracing the schematic
-
-- **Fixed:** the DS3231's own SDA/SCL pins weren't actually wired to the
-  MCU_SDA/MCU_SCL nets (SDA was floating; SCL had an explicit `no_connect`
-  flag). Both now have a direct stub to the corresponding global label.
-- **Fixed:** none of the four INA226s had their SCL pin wired to anything
-  -- only SDA was connected. Each one turned out to be one short stub wire
-  away from an already-correctly-wired pull-up/label network (the rest of
-  that network was already in place), so each channel just needed that
-  one missing wire added.
-- **Fixed:** the four INA226s' `A0`/`A1` address pins weren't wired to
-  match the address scheme the schematic itself documents (text
-  annotations next to each chip: `0x40`/`0x41`/`0x44`/`0x45` via A1×A0 ∈
-  {GND, VS}). Channels 1 and 2 already had A1 correctly left floating
-  (`no_connect`, reads as GND) for their `A1: GND` requirement; channels 3
-  and 4 (U14, U15) had that same `no_connect` on A1 even though their
-  documented addresses need A1 tied to VS -- removed those and wired A1 to
-  each chip's own VS rail instead. Wired A0 the same way per channel
-  (direct tie to GND via `no_connect`, or to VS via a wire -- no resistors
-  needed, per the INA226 datasheet's address table). Verified all four
-  chips now resolve to their documented, distinct addresses.
-
-None of this blocks breadboard bring-up with generic breakout modules,
-since those are wired by hand rather than by the PCB traces.
+The per-zone INA226s have been removed from the board design. The
+`Ina226` driver and `power_monitor` example are still here but only
+apply to an external INA226 breakout on the I2C bus.
 
 ## `max_expected_amps` in the power monitor example
 

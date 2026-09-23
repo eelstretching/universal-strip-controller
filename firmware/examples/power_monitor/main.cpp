@@ -7,11 +7,11 @@
 
 #include "ina226.hpp"
 
-// Confirmed by tracing Power.kicad_sch: all four INA226es share the same
-// MCU_SDA/MCU_SCL bus as the RTC, on the RP2350B's GPIO38/GPIO39, matching
-// the RP2350's fixed I2C1 SDA/SCL pin roles.
-constexpr uint kPowerSdaPin = 38;
-constexpr uint kPowerSclPin = 39;
+// The INA226s have been removed from the board, so this example is only
+// useful with an external INA226 breakout hung off the same MCU_SDA/MCU_SCL
+// bus as the RTC: GPIO42/GPIO43, the RP2350's fixed I2C1 SDA/SCL pins.
+constexpr uint kPowerSdaPin = 42;
+constexpr uint kPowerSclPin = 43;
 constexpr uint kPowerI2cBaudrate = 100 * 1000;
 
 // Per-channel addresses, confirmed against Power.kicad_sch's A0/A1 strapping

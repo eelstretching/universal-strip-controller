@@ -21,8 +21,8 @@
 
 // Same confirmed, hardware-correct I2C1 pins as the rtc_time/power_monitor
 // examples -- see firmware/README.md.
-constexpr uint kRtcSdaPin = 38;
-constexpr uint kRtcSclPin = 39;
+constexpr uint kRtcSdaPin = 42;
+constexpr uint kRtcSclPin = 43;
 constexpr uint kRtcI2cBaudrate = 100 * 1000;
 
 constexpr char kNtpServer[] = "pool.ntp.org";
