@@ -11114,16 +11114,16 @@
 		(uuid "5761b2de-ce58-4a43-ab21-1f5bb5965f23")
 	)
 	(no_connect
+		(at 331.47 127)
+		(uuid "60ec37f7-df46-490c-8768-7b51ac59b8f3")
+	)
+	(no_connect
 		(at 241.3 133.35)
 		(uuid "624d2aff-a4d9-4b83-909e-9244ee471012")
 	)
 	(no_connect
 		(at 373.38 195.58)
 		(uuid "865b18e9-5eaa-4a2c-9112-bdef153d8f57")
-	)
-	(no_connect
-		(at 274.32 184.15)
-		(uuid "869d1f0a-067a-4b25-800e-a2b416bb52a2")
 	)
 	(no_connect
 		(at 241.3 130.81)
@@ -11224,26 +11224,6 @@
 			(type default)
 		)
 		(uuid "06f00758-19ab-403c-ac8d-10e71d956aaf")
-	)
-	(wire
-		(pts
-			(xy 331.47 124.46) (xy 312.42 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52abdff6-ec74-4211-ab41-cf7d17c1f27c")
-	)
-	(wire
-		(pts
-			(xy 331.47 127.0) (xy 312.42 127.0)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dceacc33-ca30-4d91-aa5f-6f84e4def962")
 	)
 	(wire
 		(pts
@@ -15335,53 +15315,7 @@
 			)
 		)
 	)
-	(global_label "MCU_SDA"
-		(shape bidirectional)
-		(at 312.42 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6457a63e-3b7a-496e-8120-12d84756bff9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.42 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "MCU_SCL"
-		(shape bidirectional)
-		(at 312.42 127.0 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "84a9a7ff-0db6-419f-881a-484388838b18")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.42 127.0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "MCU_SDA"
 		(shape input)
 		(at 241.3 140.97 0)
 		(fields_autoplaced yes)
@@ -15813,7 +15747,7 @@
 			)
 		)
 	)
-	(global_label "MCU_SCL"
+	(global_label "MCU_SDA"
 		(shape input)
 		(at 241.3 143.51 0)
 		(fields_autoplaced yes)
