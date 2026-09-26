@@ -95,6 +95,8 @@ Taken from KiCad's exported netlist of `universal-strip-controller.kicad_sch`
 | I2C1 SCL (DS3231) | `MCU_SCL` | GPIO43 |
 | DS3231 `INT`/`SQW` | `RTC_INT` | GPIO44 |
 | Status LED chain data (via level shifter) | `STATUS_LED_DATA` | GPIO32 |
+| Debug UART1 TX (J2 pin 1) | `UART1_1` | GPIO36 |
+| Debug UART1 RX (J2 pin 2) | `UART1_2` | GPIO37 |
 | RM2 wifi module `WL_ON`/`BT_ON` | `RM2_BT_WL_ON` | GPIO38 |
 | RM2 wifi module data (bidirectional) | `RM2_DI_DO` | GPIO39 |
 | RM2 wifi module chip select | `RM2_CS` | GPIO40 |

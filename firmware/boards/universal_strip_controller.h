@@ -42,6 +42,20 @@ pico_board_cmake_set(PICO_CYW43_SUPPORTED, 1)
 #define PICO_FLASH_SIZE_BYTES (16 * 1024 * 1024)
 #endif
 
+// --- UART ---
+// Debug header J2, confirmed from the exported netlist: GPIO36 is J2 pin 1
+// (net UART1_1) and GPIO37 is J2 pin 2 (UART1_2). The RP2350 fixes those
+// pins as UART1 TX and RX, so this is where stdio_uart output goes.
+#ifndef PICO_DEFAULT_UART
+#define PICO_DEFAULT_UART 1
+#endif
+#ifndef PICO_DEFAULT_UART_TX_PIN
+#define PICO_DEFAULT_UART_TX_PIN 36
+#endif
+#ifndef PICO_DEFAULT_UART_RX_PIN
+#define PICO_DEFAULT_UART_RX_PIN 37
+#endif
+
 // --- I2C ---
 // DS3231 RTC, confirmed from KiCad's exported netlist of
 // universal-strip-controller.kicad_sch: MCU_SDA is GPIO42 and MCU_SCL is
