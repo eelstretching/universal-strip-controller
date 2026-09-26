@@ -1296,121 +1296,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PixelBlit:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PixelBlit:SN74LVC8T245PWR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1997,22 +1882,10 @@
 		(uuid "0b6b18d4-9012-4053-ac9d-9147b9c6112a")
 	)
 	(junction
-		(at 127 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0cb3333a-0403-4f42-9ee5-bb50b112c224")
-	)
-	(junction
 		(at 146.05 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ccc3055-f826-484f-8d1a-961d86ebd473")
-	)
-	(junction
-		(at 63.5 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "100f0e53-d729-41b6-8fa0-b05986bb5c37")
 	)
 	(junction
 		(at 173.99 67.31)
@@ -2051,12 +1924,6 @@
 		(uuid "24ecffff-31dc-4e3c-8c3b-347a3b23ba1b")
 	)
 	(junction
-		(at 127 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27a586d8-fc24-452b-afe2-78b73055be94")
-	)
-	(junction
 		(at 267.97 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2079,18 +1946,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38ec7a58-034a-492a-a91c-5132da2d150c")
-	)
-	(junction
-		(at 63.5 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42442d5a-e9da-4ede-bb58-80f07ecca5ab")
-	)
-	(junction
-		(at 63.5 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47b2974c-1059-410e-8cdc-46c326aac3ea")
 	)
 	(junction
 		(at 121.92 24.13)
@@ -2123,22 +1978,10 @@
 		(uuid "4f3b6b22-cd9d-4b41-a747-24f5a89d6b0d")
 	)
 	(junction
-		(at 63.5 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c8e890d-2f0e-4595-a976-43e6de543f13")
-	)
-	(junction
 		(at 34.29 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "610ddc24-39af-4322-a1ac-696d13a8bc15")
-	)
-	(junction
-		(at 63.5 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64bd9b7a-40db-4515-9cde-149f2231f663")
 	)
 	(junction
 		(at 275.59 34.29)
@@ -2243,22 +2086,10 @@
 		(uuid "d96c2b23-2905-4bc2-a817-10b89e76e462")
 	)
 	(junction
-		(at 63.5 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc86aab3-3522-4bf8-9cca-14425c49fc97")
-	)
-	(junction
 		(at 67.31 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd1e57eb-575c-4f1b-acc7-513a26107f75")
-	)
-	(junction
-		(at 63.5 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de22c5e1-a159-4ff3-b022-ed6d67cc7f2e")
 	)
 	(junction
 		(at 228.6 24.13)
@@ -2289,12 +2120,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6b71b46-4064-4814-933d-1543ce034ae2")
-	)
-	(junction
-		(at 63.5 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f96ffac1-c995-40d1-8259-5734b4436efb")
 	)
 	(junction
 		(at 34.29 24.13)
@@ -2634,16 +2459,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 76.2) (xy 60.96 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ff237c3-d6bf-4f0a-b661-c39b5fbc9ea8")
-	)
-	(wire
-		(pts
 			(xy 19.05 24.13) (xy 26.67 24.13)
 		)
 		(stroke
@@ -2881,16 +2696,6 @@
 			(type default)
 		)
 		(uuid "4e0581a3-0ad1-4a25-8502-b9fb29373a28")
-	)
-	(wire
-		(pts
-			(xy 53.34 87.63) (xy 60.96 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51f0fa4c-ae9b-4725-ad23-2c7ed27787f7")
 	)
 	(wire
 		(pts
@@ -3204,16 +3009,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 67.31) (xy 228.6 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c17b6d88-43d3-47fc-93b4-e398cc4f8e3b")
-	)
-	(wire
-		(pts
 			(xy 228.6 67.31) (xy 226.06 67.31)
 		)
 		(stroke
@@ -3231,16 +3026,6 @@
 			(type default)
 		)
 		(uuid "7368a3ea-ec7d-4a9e-a5c4-243fdee67705")
-	)
-	(wire
-		(pts
-			(xy 60.96 76.2) (xy 63.5 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73b1da09-1c79-42e4-933c-3595ab39a4ff")
 	)
 	(wire
 		(pts
@@ -3321,16 +3106,6 @@
 			(type default)
 		)
 		(uuid "7ed309fc-3f16-4d44-b05b-e344c0179d36")
-	)
-	(wire
-		(pts
-			(xy 179.07 74.93) (xy 186.69 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8172cf47-2593-40d9-a5a0-48cb64403779")
 	)
 	(wire
 		(pts
@@ -3884,6 +3659,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 67.31) (xy 228.6 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c17b6d88-43d3-47fc-93b4-e398cc4f8e3b")
+	)
+	(wire
+		(pts
 			(xy 121.92 24.13) (xy 124.46 24.13)
 		)
 		(stroke
@@ -4104,6 +3889,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 72.39) (xy 179.07 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d41e8eae-3cd2-49b4-93c4-5b0121fb69f1")
+	)
+	(wire
+		(pts
 			(xy 215.9 44.45) (xy 210.82 44.45)
 		)
 		(stroke
@@ -4161,16 +3956,6 @@
 			(type default)
 		)
 		(uuid "d8c99d06-8c1c-4f80-bcdf-8d1737be861b")
-	)
-	(wire
-		(pts
-			(xy 60.96 87.63) (xy 63.5 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d90dfb22-4b9a-48c3-8883-80c240560d3a")
 	)
 	(wire
 		(pts
@@ -8287,7 +8072,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z4"
+		(property "Value" "+VIN_Z3"
 			(at 178.816 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10173,85 +9958,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PixelBlit:PWR_FLAG")
-		(at 60.96 87.63 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20f916e5-f9f7-451e-bcd0-eeffacedcc03")
-		(property "Reference" "#FLG21"
-			(at 59.055 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 57.15 87.6299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 60.96 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5313dbe7-bfc0-4355-a6a7-5ca6e0718fe5")
-		)
-		(instances
-			(project "universal-strip-controller"
-				(path "/b1a25501-925f-4082-acf3-9513bc59c329/d8f0d195-c5df-462a-a3f2-ec02d0941269"
-					(reference "#FLG21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PixelBlit:DB301V-3.5-3P-GN")
 		(at 68.58 113.03 0)
 		(unit 1)
@@ -11462,7 +11168,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z3"
+		(property "Value" "+VIN_Z4"
 			(at 237.236 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11867,7 +11573,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z2"
+		(property "Value" "+VIN_Z1"
 			(at 53.086 94.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11944,7 +11650,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z4"
+		(property "Value" "+VIN_Z3"
 			(at 178.816 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12554,7 +12260,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z1"
+		(property "Value" "+VIN_Z2"
 			(at 116.586 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15206,7 +14912,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z3"
+		(property "Value" "+VIN_Z4"
 			(at 237.236 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16329,7 +16035,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z3"
+		(property "Value" "+VIN_Z4"
 			(at 237.236 152.146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17167,85 +16873,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PixelBlit:PWR_FLAG")
-		(at 186.69 74.93 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69d040b7-c3a0-40be-a3af-15a0f45cd081")
-		(property "Reference" "#FLG22"
-			(at 184.785 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 182.88 74.9299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 186.69 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "52e6b01d-df2c-46c0-9764-bef1c3e1e756")
-		)
-		(instances
-			(project "universal-strip-controller"
-				(path "/b1a25501-925f-4082-acf3-9513bc59c329/d8f0d195-c5df-462a-a3f2-ec02d0941269"
-					(reference "#FLG22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EasyEDA:1812L400_16GR")
 		(at 121.92 144.78 0)
 		(unit 1)
@@ -17358,7 +16985,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z1"
+		(property "Value" "+VIN_Z2"
 			(at 116.586 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18143,7 +17770,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z2"
+		(property "Value" "+VIN_Z1"
 			(at 53.086 140.716 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20362,7 +19989,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z4"
+		(property "Value" "+VIN_Z3"
 			(at 178.816 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21828,7 +21455,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z3"
+		(property "Value" "+VIN_Z4"
 			(at 237.236 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25487,7 +25114,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z2"
+		(property "Value" "+VIN_Z1"
 			(at 53.086 117.856 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26097,7 +25724,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z1"
+		(property "Value" "+VIN_Z2"
 			(at 116.586 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27084,7 +26711,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z4"
+		(property "Value" "+VIN_Z3"
 			(at 178.816 116.586 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27134,85 +26761,6 @@
 			(project "universal-strip-controller"
 				(path "/b1a25501-925f-4082-acf3-9513bc59c329/d8f0d195-c5df-462a-a3f2-ec02d0941269"
 					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PixelBlit:PWR_FLAG")
-		(at 60.96 76.2 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de45b990-254e-4792-b063-6a0ba65a5ddc")
-		(property "Reference" "#FLG20"
-			(at 59.055 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 57.15 76.1999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 60.96 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "040c8758-5341-4c7f-abd4-1d17052b1670")
-		)
-		(instances
-			(project "universal-strip-controller"
-				(path "/b1a25501-925f-4082-acf3-9513bc59c329/d8f0d195-c5df-462a-a3f2-ec02d0941269"
-					(reference "#FLG20")
 					(unit 1)
 				)
 			)
@@ -28488,7 +28036,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z1"
+		(property "Value" "+VIN_Z2"
 			(at 116.586 152.146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29136,7 +28684,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fc558df8-ae58-47f9-83b4-3c4e0f9f08a5")
 		(property "Reference" "#PWR064"
 			(at 53.34 80.01 0)
@@ -29149,14 +28696,15 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z2"
-			(at 53.34 71.12 0)
+		(property "Value" "+VIN_Z1"
+			(at 48.26 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
