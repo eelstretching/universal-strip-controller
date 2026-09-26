@@ -1,3 +1,17 @@
+# == DO NOT EDIT THE FOLLOWING LINES for the Raspberry Pi Pico VS Code Extension to work ==
+if(WIN32)
+    set(USERHOME $ENV{USERPROFILE})
+else()
+    set(USERHOME $ENV{HOME})
+endif()
+set(sdkVersion 2.3.1)
+set(toolchainVersion 15_2_Rel1)
+set(picotoolVersion 2.3.1)
+set(picoVscode ${USERHOME}/.pico-sdk/cmake/pico-vscode.cmake)
+if (EXISTS ${picoVscode})
+    include(${picoVscode})
+endif()
+# ====================================================================================
 cmake_minimum_required(VERSION 3.13)
 
 # This board is a custom RP2350B design (see ../universal-strip-controller.kicad_sch
@@ -46,7 +60,21 @@ add_compile_definitions(PICO_INCLUDE_RTC_DATETIME=1)
 
 pico_sdk_init()
 
+# The status lights driver is built on the PicoLEDs library (Strip/Renderer),
+# which lives in its own repo next to this one by default.
+set(PICOLEDS_PATH ${CMAKE_CURRENT_LIST_DIR}/../../PicoLEDs CACHE PATH
+    "Path to a PicoLEDs checkout")
+add_subdirectory(${PICOLEDS_PATH}/src ${CMAKE_BINARY_DIR}/PicoLEDs)
+# Our drivers build with -Wall -Wextra; PicoLEDs' headers aren't written to
+# that bar, so treat them as system headers rather than drown our own
+# warnings in theirs.
+get_target_property(PICOLEDS_INCLUDES PicoLEDs INTERFACE_INCLUDE_DIRECTORIES)
+set_target_properties(PicoLEDs PROPERTIES
+    INTERFACE_SYSTEM_INCLUDE_DIRECTORIES "${PICOLEDS_INCLUDES}")
+
 add_subdirectory(drivers/ds3231)
+add_subdirectory(drivers/status_lights)
 
 add_subdirectory(examples/rtc_time)
 add_subdirectory(examples/wifi_rtc_sync)
+add_subdirectory(examples/status_lights)

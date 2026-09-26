@@ -57,6 +57,17 @@ pico_board_cmake_set(PICO_CYW43_SUPPORTED, 1)
 #define PICO_DEFAULT_I2C_SCL_PIN 43
 #endif
 
+// --- Status lights ---
+// STATUS_LED_DATA (GPIO32) drives a daisy chain of SK6812MINI RGB LEDs
+// through a SN74LVC1T45 level shifter (Status-LEDs.kicad_sch). The board
+// has room for 8; see drivers/status_lights.
+#ifndef PICO_DEFAULT_WS2812_PIN
+#define PICO_DEFAULT_WS2812_PIN 32
+#endif
+#ifndef USC_STATUS_LIGHT_COUNT
+#define USC_STATUS_LIGHT_COUNT 8
+#endif
+
 // --- RM2 wireless module (CYW43439) ---
 // Confirmed from the exported netlist: RM2_BT_WL_ON = GPIO38, RM2_DI_DO =
 // GPIO39, RM2_CS = GPIO40, RM2_SCLK = GPIO41. Same 4-signal

@@ -26,6 +26,12 @@
 #define PICO_DEFAULT_I2C_SDA_PIN 42
 #define PICO_DEFAULT_I2C_SCL_PIN 43
 
+// --- Status lights ---
+// Same GPIO32 data line as universal_strip_controller.h, for an SK6812
+// chain wired to the breakout by hand.
+#define PICO_DEFAULT_WS2812_PIN 32
+#define USC_STATUS_LIGHT_COUNT 8
+
 // Pulls in Waveshare's own board definition for everything that's actually
 // specific to this physical board: RP2350B variant (confirms 48-GPIO
 // PICO_RP2350A=0, same as the real design), flash chip/boot stage, SMPS

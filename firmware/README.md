@@ -23,7 +23,16 @@ every pin/flash value this firmware relies on, confirmed against
   whether the RTC lost power (and so can't be trusted), read the onboard
   temperature sensor. See `drivers/ds3231/include/ds3231.hpp`.
 
-It doesn't expose register addresses or raw I2C transactions in its public
+- `drivers/status_lights` -- a `StatusLights` class for the chain of
+  SK6812MINI RGB status LEDs (8 on this board, but the count is a
+  constructor argument). Each light shows a `LightPattern` --
+  `SolidPattern`, `BlinkPattern`, `FlickerPattern` -- and new behaviors are
+  new `LightPattern` subclasses. Built on the `Strip`/`Renderer` classes from
+  [PicoLEDs](../../PicoLEDs), which CMake expects next to this repo
+  (override with `-DPICOLEDS_PATH=...`). See
+  `drivers/status_lights/include/status_lights.hpp`.
+
+The DS3231 driver doesn't expose register addresses or raw I2C transactions in its public
 API -- callers ask questions (`rtc.getDatetime()`), not poke
 registers. Fallible reads return `std::optional` rather than an
 out-param plus a bool, e.g.:
@@ -44,6 +53,20 @@ if (auto now = rtc.getDatetime()) {
   `pico_w/wifi/ntp_client` example), writes it to the DS3231, then prints
   the RTC's time once a second to show it's actually ticking with the
   synced value.
+
+- `examples/status_lights` -- gives the first few status lights different
+  patterns (solid, blink, flicker) so you can check the chain at a glance.
+
+```cpp
+StatusLights lights(PICO_DEFAULT_WS2812_PIN, USC_STATUS_LIGHT_COUNT);
+lights.begin();  // after cyw43_arch_init() if using WiFi
+lights.set(0, RGB(0, 255, 0));
+lights.setPattern(1, std::make_unique<FlickerPattern>(RGB(0, 0, 255)));
+while (true) {
+    lights.update();
+    sleep_ms(10);
+}
+```
 
 ## Building
 
@@ -71,6 +94,7 @@ Taken from KiCad's exported netlist of `universal-strip-controller.kicad_sch`
 | I2C1 SDA (DS3231) | `MCU_SDA` | GPIO42 |
 | I2C1 SCL (DS3231) | `MCU_SCL` | GPIO43 |
 | DS3231 `INT`/`SQW` | `RTC_INT` | GPIO44 |
+| Status LED chain data (via level shifter) | `STATUS_LED_DATA` | GPIO32 |
 | RM2 wifi module `WL_ON`/`BT_ON` | `RM2_BT_WL_ON` | GPIO38 |
 | RM2 wifi module data (bidirectional) | `RM2_DI_DO` | GPIO39 |
 | RM2 wifi module chip select | `RM2_CS` | GPIO40 |
