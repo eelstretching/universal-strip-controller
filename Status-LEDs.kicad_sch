@@ -1484,6 +1484,12 @@
 		(uuid "c1d531c4-54e6-4427-9a4a-fd86544ec5d6")
 	)
 	(junction
+		(at 223.52 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02ad7f43-0053-44d4-a1eb-d2a8c0f15517")
+	)
+	(junction
 		(at 152.4 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1580,6 +1586,12 @@
 		(uuid "4c037856-f625-479b-bee4-2d9204c84cd4")
 	)
 	(junction
+		(at 223.52 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d21bb77-1772-49de-89fa-f7850f1533a0")
+	)
+	(junction
 		(at 101.6 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1614,6 +1626,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59e23b43-cf01-4bcd-b9c0-3c95d2417905")
+	)
+	(junction
+		(at 223.52 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c7d8a42-5f0e-41f9-a0c6-3671084905b1")
 	)
 	(junction
 		(at 129.54 34.29)
@@ -1760,6 +1778,12 @@
 		(uuid "cd2548aa-9103-4df6-a8ed-24f48a6cfc11")
 	)
 	(junction
+		(at 223.52 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdab652a-a040-454e-99b1-08cac19b33b2")
+	)
+	(junction
 		(at 157.48 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1831,6 +1855,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 73.66) (xy 223.52 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0008fd6d-f9ba-4785-9fec-636bcedbccf2")
+	)
+	(wire
+		(pts
 			(xy 175.26 48.26) (xy 177.8 48.26)
 		)
 		(stroke
@@ -1838,6 +1872,16 @@
 			(type default)
 		)
 		(uuid "050f1a17-84cd-49e7-aeec-85973232f009")
+	)
+	(wire
+		(pts
+			(xy 233.68 82.55) (xy 233.68 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f67799-a21e-4a78-8379-0288cb1b4bd0")
 	)
 	(wire
 		(pts
@@ -1928,6 +1972,16 @@
 			(type default)
 		)
 		(uuid "1396c9ed-1f6d-4dcf-aef5-7050a1cc2e3c")
+	)
+	(wire
+		(pts
+			(xy 233.68 77.47) (xy 233.68 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15319f14-583e-483f-b686-2d880038d684")
 	)
 	(wire
 		(pts
@@ -2031,7 +2085,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 62.23) (xy 81.28 62.23)
+			(xy 238.76 62.23) (xy 81.28 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2461,6 +2515,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 58.42) (xy 223.52 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79699af1-33b8-492d-8b8e-7182cebd7fb7")
+	)
+	(wire
+		(pts
 			(xy 204.47 58.42) (xy 194.31 58.42)
 		)
 		(stroke
@@ -2568,6 +2632,16 @@
 			(type default)
 		)
 		(uuid "8d630b16-2d51-41d1-9f77-9a466ee6f109")
+	)
+	(wire
+		(pts
+			(xy 238.76 48.26) (xy 231.14 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e3de822-ae49-4cde-a7d4-57ab04e213ab")
 	)
 	(wire
 		(pts
@@ -2711,6 +2785,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 38.1) (xy 233.68 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a686b854-898c-4d9d-8ed9-16d961ec3343")
+	)
+	(wire
+		(pts
 			(xy 119.38 82.55) (xy 119.38 97.79)
 		)
 		(stroke
@@ -2728,6 +2812,16 @@
 			(type default)
 		)
 		(uuid "ab4c9ccc-b893-4c6f-8915-d8d5a9ba4729")
+	)
+	(wire
+		(pts
+			(xy 233.68 97.79) (xy 223.52 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac23c047-8aa9-4bca-bbae-df051f8488f2")
 	)
 	(wire
 		(pts
@@ -2858,6 +2952,16 @@
 			(type default)
 		)
 		(uuid "c0a03107-acb9-4ab0-9f04-02776546d854")
+	)
+	(wire
+		(pts
+			(xy 233.68 43.18) (xy 233.68 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c22d98c0-b962-461f-bbb4-8ddd7bd4e7d5")
 	)
 	(wire
 		(pts
@@ -3031,7 +3135,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 48.26) (xy 231.14 62.23)
+			(xy 238.76 48.26) (xy 238.76 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3279,6 +3383,16 @@
 		)
 		(uuid "fae3b455-83b4-402a-ba0c-2e5a042df7ce")
 	)
+	(wire
+		(pts
+			(xy 233.68 34.29) (xy 223.52 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd989d00-2ade-418d-9dd9-178c25529467")
+	)
 	(global_label "STATUS_LED_DATA"
 		(shape input)
 		(at 41.91 48.26 180)
@@ -3300,6 +3414,131 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
+		(at 233.68 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "04ff83ff-ab1d-485b-b4c0-5bdd6d94ab23")
+		(property "Reference" "C133"
+			(at 235.712 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 235.712 37.592 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
+			(at 233.68 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
+			(at 233.68 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
+			(at 233.68 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part_uid" "RP-01BJ9Y-KRGF41"
+			(at 233.68 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 233.68 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer_pn" "GRM155R71E104KE14D"
+			(at 233.68 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "capacitance" "100n"
+			(at 233.68 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f41d70a-1a69-4b37-91e9-e391ea32ee7f")
+		)
+		(pin "2"
+			(uuid "9db7abaa-0056-4147-82ce-ef5d1936c2ed")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
+					(reference "C133")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4225,6 +4464,131 @@
 			(project "universal-strip-controller"
 				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
 					(reference "C123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RPI_DB:Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41")
+		(at 233.68 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4ee2f882-d87d-4705-892a-681fb1b71d06")
+		(property "Reference" "C134"
+			(at 235.712 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 235.712 76.962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RPI_COMPILED:generic_capc1005x50"
+			(at 233.68 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Capacitors\\MLCC\\M1005\\MURATA_GRM155R71E104KE14D\\datasheets"
+			(at 233.68 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R"
+			(at 233.68 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part_uid" "RP-01BJ9Y-KRGF41"
+			(at 233.68 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 233.68 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer_pn" "GRM155R71E104KE14D"
+			(at 233.68 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "capacitance" "100n"
+			(at 233.68 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce3bf9af-fd15-4c11-92bf-2a784eb5f066")
+		)
+		(pin "2"
+			(uuid "54911287-4784-4018-b7df-8a5145d465a7")
+		)
+		(instances
+			(project "universal-strip-controller"
+				(path "/b1a25501-925f-4082-acf3-9513bc59c329/c3168bf7-e4ad-4c9e-aeb5-4def2314521a"
+					(reference "C134")
 					(unit 1)
 				)
 			)
