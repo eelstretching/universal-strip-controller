@@ -11168,7 +11168,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z4"
+		(property "Value" "+VIN_Z3"
 			(at 237.236 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11573,7 +11573,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z1"
+		(property "Value" "+VIN_Z2"
 			(at 53.086 94.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11650,7 +11650,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z3"
+		(property "Value" "+VIN_Z4"
 			(at 178.816 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12260,7 +12260,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z2"
+		(property "Value" "+VIN_Z1"
 			(at 116.586 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15608,7 +15608,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z4"
+		(property "Value" "+VIN_Z3"
 			(at 237.236 94.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16985,7 +16985,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z2"
+		(property "Value" "+VIN_Z1"
 			(at 116.586 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17770,7 +17770,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z1"
+		(property "Value" "+VIN_Z2"
 			(at 53.086 140.716 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19325,7 +19325,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z3"
+		(property "Value" "+VIN_Z4"
 			(at 178.816 150.876 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20259,7 +20259,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z3"
+		(property "Value" "+VIN_Z4"
 			(at 178.816 128.016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21455,7 +21455,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z4"
+		(property "Value" "+VIN_Z3"
 			(at 237.236 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25114,7 +25114,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z1"
+		(property "Value" "+VIN_Z2"
 			(at 53.086 117.856 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25724,7 +25724,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z2"
+		(property "Value" "+VIN_Z1"
 			(at 116.586 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26193,7 +26193,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z4"
+		(property "Value" "+VIN_Z3"
 			(at 237.236 72.136 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26711,7 +26711,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z3"
+		(property "Value" "+VIN_Z4"
 			(at 178.816 116.586 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28036,7 +28036,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z2"
+		(property "Value" "+VIN_Z1"
 			(at 116.586 152.146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28696,7 +28696,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN_Z1"
+		(property "Value" "+VIN_Z2"
 			(at 48.26 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
