@@ -31293,52 +31293,6 @@
 		)
 	)
 	(sheet
-		(at 284.48 208.28)
-		(size 29.21 31.75)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "c3168bf7-e4ad-4c9e-aeb5-4def2314521a")
-		(property "Sheetname" "Status LEDs"
-			(at 284.48 207.5684 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Status-LEDs.kicad_sch"
-			(at 284.48 240.6146 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "universal-strip-controller"
-				(path "/b1a25501-925f-4082-acf3-9513bc59c329"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 234.95 208.28)
 		(size 29.21 30.48)
 		(exclude_from_sim no)

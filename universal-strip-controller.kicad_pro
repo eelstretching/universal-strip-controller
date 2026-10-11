@@ -172,6 +172,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -183,6 +184,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -194,6 +196,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -469,6 +472,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -516,8 +520,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -526,6 +530,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -1008,7 +1013,7 @@
         "uuid": "b1a25501-925f-4082-acf3-9513bc59c329"
       }
     ],
-    "used_designators": "JP1,#FLG2,#FLG5,#FLG7,#FLG13,F1-39,PWR_LED1-3,TP2-3,L1-2,USB1,X1,J1-39,SW1-2,U1-15,C2-4,C6-41,C118,C120-140,D1-24,#PWR4-10,#PWR12-164,R1-64,R94-106,H1-4,BT1",
+    "used_designators": "#FLG2,#FLG5,#FLG7,#FLG13,#PWR4-10,#PWR12-164,BT1,C2-4,C6-41,C118,C120-140,D1-24,F1-39,H1-4,J1-39,JP1,L1-2,PWR_LED1-3,R1-64,R94-106,SW1-2,TP2-3,U1-15,USB1,X1",
     "variants": []
   },
   "sheets": [
@@ -1019,10 +1024,6 @@
     [
       "b2bef3cb-9181-478c-9c64-5764e6fff4f7",
       "Power"
-    ],
-    [
-      "c3168bf7-e4ad-4c9e-aeb5-4def2314521a",
-      "Status LEDs"
     ],
     [
       "d8f0d195-c5df-462a-a3f2-ec02d0941269",
